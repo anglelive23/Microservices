@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Microservices.API": {
+    "Gateway.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
