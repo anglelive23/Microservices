@@ -5,9 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway.API", "Microservices.API\Gateway.API.csproj", "{862EF6A2-7C79-4FFF-A887-1855A7ECF563}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfferService", "OfferService\OfferService.csproj", "{A0CBE79C-A619-4189-A4AA-28067F0F2AFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfferService", "Services\OfferService\OfferService.csproj", "{A0CBE79C-A619-4189-A4AA-28067F0F2AFE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientService", "ClientService\ClientService.csproj", "{F79C0CC4-351F-43A8-98DE-4494B791B141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientService", "Services\ClientService\ClientService.csproj", "{F79C0CC4-351F-43A8-98DE-4494B791B141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1B8FE322-4263-4B86-997E-DCB3571638CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0CBE79C-A619-4189-A4AA-28067F0F2AFE} = {1B8FE322-4263-4B86-997E-DCB3571638CE}
+		{F79C0CC4-351F-43A8-98DE-4494B791B141} = {1B8FE322-4263-4B86-997E-DCB3571638CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D5AB1D4-28D8-47A4-9BCA-F7610A95C9F6}
