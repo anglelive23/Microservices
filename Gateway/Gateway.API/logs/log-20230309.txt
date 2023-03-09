@@ -1,0 +1,911 @@
+2023-03-09 13:48:59.385 +02:00 [INF] Starting web server.
+2023-03-09 13:49:01.616 +02:00 [INF] Unable to bind to http://localhost:5090 on the IPv4 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:49:01.699 +02:00 [INF] Unable to bind to http://localhost:5090 on the IPv6 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:50:07.601 +02:00 [INF] Starting web server.
+2023-03-09 13:50:08.855 +02:00 [INF] Unable to bind to http://localhost:5090 on the IPv4 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:52:52.121 +02:00 [INF] Starting web server.
+2023-03-09 13:52:52.999 +02:00 [INF] Unable to bind to http://localhost:5090 on the IPv4 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:52:53.079 +02:00 [INF] Unable to bind to http://localhost:5090 on the IPv6 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:53:15.485 +02:00 [INF] Starting web server.
+2023-03-09 13:53:16.303 +02:00 [INF] Unable to bind to http://localhost:5790 on the IPv4 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:53:16.386 +02:00 [INF] Unable to bind to http://localhost:5790 on the IPv6 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:54:25.221 +02:00 [INF] Starting web server.
+2023-03-09 13:54:26.098 +02:00 [INF] Unable to bind to https://localhost:5244 on the IPv4 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:54:26.194 +02:00 [INF] Unable to bind to https://localhost:5244 on the IPv6 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:55:05.298 +02:00 [INF] Starting web server.
+2023-03-09 13:55:06.108 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 13:55:06.114 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 13:55:06.117 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 13:55:06.119 +02:00 [INF] Hosting environment: Development
+2023-03-09 13:55:06.120 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 13:55:07.047 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger - -
+2023-03-09 13:55:07.192 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger - - - 301 0 - 147.5941ms
+2023-03-09 13:55:07.201 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 13:55:07.459 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 257.6487ms
+2023-03-09 13:55:07.558 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/swagger-ui.css - -
+2023-03-09 13:55:07.564 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 13:55:07.564 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 13:55:07.559 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/swagger-ui-bundle.js - -
+2023-03-09 13:55:07.561 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/swagger-ui-standalone-preset.js - -
+2023-03-09 13:55:07.579 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 15.3709ms
+2023-03-09 13:55:07.642 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-03-09 13:55:07.642 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-09 13:55:07.645 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/swagger-ui.css - - - 200 143943 text/css 86.9011ms
+2023-03-09 13:55:07.653 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 91.9404ms
+2023-03-09 13:55:07.678 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-09 13:55:07.683 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 124.4762ms
+2023-03-09 13:55:07.721 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 157.5334ms
+2023-03-09 13:55:07.932 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 13:55:07.968 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/favicon-32x32.png - -
+2023-03-09 13:55:07.970 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-03-09 13:55:07.971 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/favicon-32x32.png - - - 200 628 image/png 2.5041ms
+2023-03-09 13:55:08.064 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.8082ms
+2023-03-09 13:55:25.603 +02:00 [INF] Starting web server.
+2023-03-09 13:55:26.375 +02:00 [INF] Unable to bind to http://localhost:5417 on the IPv4 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:55:26.452 +02:00 [INF] Unable to bind to http://localhost:5417 on the IPv6 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2023-03-09 13:55:44.140 +02:00 [INF] Starting web server.
+2023-03-09 13:55:44.872 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 13:55:44.878 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 13:55:44.886 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 13:55:44.892 +02:00 [INF] Hosting environment: Development
+2023-03-09 13:55:44.892 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 13:55:45.518 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 13:55:45.816 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 306.0011ms
+2023-03-09 13:55:45.916 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 13:55:45.918 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 13:55:45.923 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 5.3723ms
+2023-03-09 13:55:45.977 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.3539ms
+2023-03-09 13:55:46.275 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 13:55:46.445 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.4572ms
+2023-03-09 13:55:48.858 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 13:55:48.868 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 9.4307ms
+2023-03-09 13:55:48.992 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 13:55:48.997 +02:00 [INF] CORS policy execution successful.
+2023-03-09 13:55:49.009 +02:00 [INF] No cached response available for this request.
+2023-03-09 13:55:49.012 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API)'
+2023-03-09 13:55:49.028 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 13:55:53.873 +02:00 [INF] Failed Status(StatusCode="Unavailable", Detail="Error connecting to subchannel.", DebugException="System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.SocketConnectivitySubchannelTransport.TryConnectAsync(ConnectContext context)")
+2023-03-09 13:55:53.879 +02:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2023-03-09 13:55:53.885 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API) in 4851.4717ms
+2023-03-09 13:55:53.891 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API)'
+2023-03-09 13:55:53.892 +02:00 [INF] The response could not be cached for this request.
+2023-03-09 13:55:53.896 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 204 - - 4903.7063ms
+2023-03-09 13:55:59.010 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Employees - -
+2023-03-09 13:55:59.013 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Employees - - - 307 0 - 3.3668ms
+2023-03-09 13:55:59.019 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Employees - -
+2023-03-09 13:55:59.021 +02:00 [INF] CORS policy execution successful.
+2023-03-09 13:55:59.023 +02:00 [INF] No cached response available for this request.
+2023-03-09 13:55:59.028 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllEmployees (Microservices.API)'
+2023-03-09 13:55:59.039 +02:00 [INF] Route matched with {action = "GetAllEmployees", controller = "Company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 13:55:59.052 +02:00 [INF] Starting controller Company action GetAllEmployees.
+2023-03-09 13:56:02.357 +02:00 [ERR] An error occurred using the connection to database 'FutureSystems' on server '(localdb)\ProjectModels'.
+2023-03-09 13:56:02.507 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Microservices.API.Entities.Data.FutureSystemsContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "FutureSystems" requested by the login. The login failed.
+Login failed for user 'DESKTOP-3SKBQ9D\Ahmed-PC'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:7b5d3350-228d-45ee-a0e7-44f84ce6d92b
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "FutureSystems" requested by the login. The login failed.
+Login failed for user 'DESKTOP-3SKBQ9D\Ahmed-PC'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:7b5d3350-228d-45ee-a0e7-44f84ce6d92b
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-03-09 13:56:02.669 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-03-09 13:56:02.673 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllEmployees (Microservices.API) in 3628.288ms
+2023-03-09 13:56:02.675 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllEmployees (Microservices.API)'
+2023-03-09 13:56:02.677 +02:00 [INF] The response could not be cached for this request.
+2023-03-09 13:56:02.685 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Employees - - - 500 - text/plain;+charset=utf-8 3665.6284ms
+2023-03-09 13:56:13.676 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Clients - -
+2023-03-09 13:56:13.677 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Clients - - - 307 0 - 1.4123ms
+2023-03-09 13:56:13.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Clients - -
+2023-03-09 13:56:13.694 +02:00 [INF] CORS policy execution successful.
+2023-03-09 13:56:13.695 +02:00 [INF] No cached response available for this request.
+2023-03-09 13:56:13.696 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllClients (Microservices.API)'
+2023-03-09 13:56:13.703 +02:00 [INF] Route matched with {action = "GetAllClients", controller = "Company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllClients() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 13:56:13.709 +02:00 [INF] Starting controller Company action GetAllClients.
+2023-03-09 13:56:17.901 +02:00 [INF] Failed...Status(StatusCode="Unavailable", Detail="Error connecting to subchannel.", DebugException="System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.SocketConnectivitySubchannelTransport.TryConnectAsync(ConnectContext context)")
+2023-03-09 13:56:17.902 +02:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2023-03-09 13:56:17.904 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllClients (Microservices.API) in 4198.1596ms
+2023-03-09 13:56:17.905 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllClients (Microservices.API)'
+2023-03-09 13:56:17.906 +02:00 [INF] The response could not be cached for this request.
+2023-03-09 13:56:17.907 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Clients - - - 204 - - 4218.5448ms
+2023-03-09 13:56:20.554 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Projects - -
+2023-03-09 13:56:20.555 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Projects - - - 307 0 - 1.1954ms
+2023-03-09 13:56:20.563 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Projects - -
+2023-03-09 13:56:20.566 +02:00 [INF] CORS policy execution successful.
+2023-03-09 13:56:20.570 +02:00 [INF] No cached response available for this request.
+2023-03-09 13:56:20.573 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllProjects (Microservices.API)'
+2023-03-09 13:56:20.577 +02:00 [INF] Route matched with {action = "GetAllProjects", controller = "Company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProjects() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 13:56:20.582 +02:00 [INF] Starting controller Company action GetAllProjects.
+2023-03-09 13:56:20.759 +02:00 [ERR] An error occurred using the connection to database 'FutureSystems' on server '(localdb)\ProjectModels'.
+2023-03-09 13:56:20.892 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Microservices.API.Entities.Data.FutureSystemsContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "FutureSystems" requested by the login. The login failed.
+Login failed for user 'DESKTOP-3SKBQ9D\Ahmed-PC'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:a7eef63d-2a8b-4497-bcba-0866872592d1
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "FutureSystems" requested by the login. The login failed.
+Login failed for user 'DESKTOP-3SKBQ9D\Ahmed-PC'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:a7eef63d-2a8b-4497-bcba-0866872592d1
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-03-09 13:56:21.062 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-03-09 13:56:21.065 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllProjects (Microservices.API) in 484.9307ms
+2023-03-09 13:56:21.071 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllProjects (Microservices.API)'
+2023-03-09 13:56:21.075 +02:00 [INF] The response could not be cached for this request.
+2023-03-09 13:56:21.077 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Projects - - - 500 - text/plain;+charset=utf-8 514.0666ms
+2023-03-09 13:56:49.800 +02:00 [INF] Starting web server.
+2023-03-09 13:56:50.548 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 13:56:50.559 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 13:56:50.566 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 13:56:50.574 +02:00 [INF] Hosting environment: Development
+2023-03-09 13:56:50.577 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 13:56:51.504 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 13:56:51.804 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 302.2607ms
+2023-03-09 13:56:51.909 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 13:56:51.911 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 13:56:51.917 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 6.2847ms
+2023-03-09 13:56:51.935 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.7633ms
+2023-03-09 13:56:52.052 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 13:56:52.183 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.7927ms
+2023-03-09 13:57:37.422 +02:00 [INF] Starting web server.
+2023-03-09 13:57:38.043 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 13:57:38.048 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 13:57:38.050 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 13:57:38.051 +02:00 [INF] Hosting environment: Development
+2023-03-09 13:57:38.052 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 13:57:38.611 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 13:57:38.898 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 290.4442ms
+2023-03-09 13:57:38.997 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 13:57:38.999 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 13:57:39.007 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 7.6201ms
+2023-03-09 13:57:39.037 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.3996ms
+2023-03-09 13:57:39.154 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 13:57:39.332 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.4816ms
+2023-03-09 13:58:38.674 +02:00 [INF] Starting web server.
+2023-03-09 13:59:29.118 +02:00 [INF] Starting web server.
+2023-03-09 13:59:30.245 +02:00 [INF] Executed DbCommand (273ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Microservices];
+2023-03-09 13:59:30.325 +02:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Microservices] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-03-09 13:59:30.345 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-09 13:59:30.421 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-09 13:59:30.422 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-09 13:59:30.437 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-09 13:59:30.441 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-09 13:59:30.454 +02:00 [INF] Applying migration '20230222145533_InitialModel'.
+2023-03-09 13:59:30.468 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230222145533_InitialModel', N'7.0.3');
+2023-03-09 13:59:30.473 +02:00 [INF] Applying migration '20230227112806_AddServicesAndImagesTable'.
+2023-03-09 13:59:30.552 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Images] (
+    [Id] int NOT NULL IDENTITY,
+    [Path] nvarchar(max) NULL,
+    CONSTRAINT [PK_Images] PRIMARY KEY ([Id])
+);
+2023-03-09 13:59:30.554 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Services] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Brief] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [ImageId] int NULL,
+    CONSTRAINT [PK_Services] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Services_Images_ImageId] FOREIGN KEY ([ImageId]) REFERENCES [Images] ([Id])
+);
+2023-03-09 13:59:30.555 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Services_ImageId] ON [Services] ([ImageId]);
+2023-03-09 13:59:30.556 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230227112806_AddServicesAndImagesTable', N'7.0.3');
+2023-03-09 13:59:30.556 +02:00 [INF] Applying migration '20230227114630_AddProjectsTable'.
+2023-03-09 13:59:30.566 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Projects] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(100) NOT NULL,
+    [ProjectUrl] nvarchar(250) NOT NULL,
+    CONSTRAINT [PK_Projects] PRIMARY KEY ([Id])
+);
+2023-03-09 13:59:30.567 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230227114630_AddProjectsTable', N'7.0.3');
+2023-03-09 13:59:30.568 +02:00 [INF] Applying migration '20230227123343_AddClientsTable'.
+2023-03-09 13:59:30.574 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Clients] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [ImageUrl] nvarchar(200) NOT NULL,
+    CONSTRAINT [PK_Clients] PRIMARY KEY ([Id])
+);
+2023-03-09 13:59:30.574 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230227123343_AddClientsTable', N'7.0.3');
+2023-03-09 13:59:30.574 +02:00 [INF] Applying migration '20230227124908_AddEmployeesTable'.
+2023-03-09 13:59:30.584 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employees] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(25) NOT NULL,
+    [Role] nvarchar(25) NOT NULL,
+    [ImageUrl] nvarchar(max) NULL,
+    CONSTRAINT [PK_Employees] PRIMARY KEY ([Id])
+);
+2023-03-09 13:59:30.585 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230227124908_AddEmployeesTable', N'7.0.3');
+2023-03-09 13:59:30.585 +02:00 [INF] Applying migration '20230227125616_DeleteImageTable'.
+2023-03-09 13:59:30.596 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Services] DROP CONSTRAINT [FK_Services_Images_ImageId];
+2023-03-09 13:59:30.599 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE [Images];
+2023-03-09 13:59:30.601 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP INDEX [IX_Services_ImageId] ON [Services];
+2023-03-09 13:59:30.674 +02:00 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Services]') AND [c].[name] = N'ImageId');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Services] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Services] DROP COLUMN [ImageId];
+2023-03-09 13:59:30.674 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Services] ADD [LogoUrl] nvarchar(max) NULL;
+2023-03-09 13:59:30.675 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230227125616_DeleteImageTable', N'7.0.3');
+2023-03-09 13:59:31.150 +02:00 [INF] Applying migration '20230306083537_AddImageUrlToServicesTable'.
+2023-03-09 13:59:31.155 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Services] ADD [ImageUrl1] nvarchar(max) NULL;
+2023-03-09 13:59:31.156 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Services] ADD [ImageUrl2] nvarchar(max) NULL;
+2023-03-09 13:59:31.156 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230306083537_AddImageUrlToServicesTable', N'7.0.3');
+2023-03-09 13:59:55.907 +02:00 [INF] Starting web server.
+2023-03-09 13:59:56.476 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 13:59:56.481 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 13:59:56.483 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 13:59:56.484 +02:00 [INF] Hosting environment: Development
+2023-03-09 13:59:56.484 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 13:59:59.000 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 13:59:59.324 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 327.3420ms
+2023-03-09 13:59:59.419 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 13:59:59.421 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 13:59:59.426 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 4.6401ms
+2023-03-09 13:59:59.458 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.5321ms
+2023-03-09 13:59:59.592 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 13:59:59.770 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.7319ms
+2023-03-09 14:00:04.324 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Employees - -
+2023-03-09 14:00:04.331 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Employees - - - 307 0 - 7.4117ms
+2023-03-09 14:00:04.413 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Employees - -
+2023-03-09 14:00:04.421 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:00:04.431 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:00:04.439 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllEmployees (Microservices.API)'
+2023-03-09 14:00:04.463 +02:00 [INF] Route matched with {action = "GetAllEmployees", controller = "Company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 14:00:07.861 +02:00 [INF] Starting controller Company action GetAllEmployees.
+2023-03-09 14:00:09.241 +02:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[ImageUrl], [e].[Name], [e].[Role]
+FROM [Employees] AS [e]
+2023-03-09 14:00:11.304 +02:00 [INF] Returning all Clients to the caller.
+2023-03-09 14:00:13.039 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.EmployeeResponseDto, Microservices.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:00:13.053 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllEmployees (Microservices.API) in 8585.8228ms
+2023-03-09 14:00:13.055 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllEmployees (Microservices.API)'
+2023-03-09 14:00:13.057 +02:00 [INF] The response has been cached.
+2023-03-09 14:00:13.065 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Employees - - - 200 - application/json;+charset=utf-8 8652.5736ms
+2023-03-09 14:02:31.069 +02:00 [INF] Starting web server.
+2023-03-09 14:02:31.879 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:02:31.887 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:02:31.890 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:02:31.892 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:02:31.894 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:02:32.666 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:02:32.915 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 249.9090ms
+2023-03-09 14:02:33.014 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:02:33.016 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:02:33.027 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 10.8845ms
+2023-03-09 14:02:33.046 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.6906ms
+2023-03-09 14:02:33.157 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:02:33.344 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.0125ms
+2023-03-09 14:02:35.632 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:02:35.642 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 9.3909ms
+2023-03-09 14:02:35.725 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:02:35.733 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:02:35.744 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:02:35.747 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API)'
+2023-03-09 14:02:35.758 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 14:02:40.506 +02:00 [INF] Failed Status(StatusCode="Unavailable", Detail="Error connecting to subchannel.", DebugException="System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.SocketConnectivitySubchannelTransport.TryConnectAsync(ConnectContext context)")
+2023-03-09 14:02:40.512 +02:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2023-03-09 14:02:40.514 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API) in 4751.3396ms
+2023-03-09 14:02:40.518 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API)'
+2023-03-09 14:02:40.520 +02:00 [INF] The response could not be cached for this request.
+2023-03-09 14:02:40.524 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 204 - - 4798.7409ms
+2023-03-09 14:04:11.318 +02:00 [INF] Starting web server.
+2023-03-09 14:04:12.187 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:04:12.192 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:04:12.196 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:04:12.198 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:04:12.200 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:04:12.750 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:04:13.081 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 332.0829ms
+2023-03-09 14:04:13.193 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:04:13.194 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:04:13.198 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 3.4580ms
+2023-03-09 14:04:13.224 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.9281ms
+2023-03-09 14:04:13.341 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:04:13.475 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.5357ms
+2023-03-09 14:04:15.281 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:04:15.288 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 6.5972ms
+2023-03-09 14:04:15.367 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:04:15.374 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:04:15.387 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:04:15.395 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API)'
+2023-03-09 14:04:15.407 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 14:04:19.920 +02:00 [INF] Failed Status(StatusCode="Unavailable", Detail="Error connecting to subchannel.", DebugException="System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.SocketConnectivitySubchannelTransport.TryConnectAsync(ConnectContext context)")
+2023-03-09 14:04:19.926 +02:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2023-03-09 14:04:19.930 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API) in 4514.589ms
+2023-03-09 14:04:19.934 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API)'
+2023-03-09 14:04:19.936 +02:00 [INF] The response could not be cached for this request.
+2023-03-09 14:04:19.939 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 204 - - 4571.7127ms
+2023-03-09 14:04:45.786 +02:00 [INF] Starting web server.
+2023-03-09 14:04:46.612 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:04:46.616 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:04:46.618 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:04:46.619 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:04:46.620 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:04:47.527 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:04:47.819 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 295.3493ms
+2023-03-09 14:04:47.922 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:04:47.923 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:04:47.933 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 6.9784ms
+2023-03-09 14:04:47.965 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.0675ms
+2023-03-09 14:04:48.067 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:04:48.208 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.7986ms
+2023-03-09 14:04:51.152 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:04:51.159 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 7.3232ms
+2023-03-09 14:04:51.226 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:04:51.232 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:04:51.238 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:04:51.242 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API)'
+2023-03-09 14:04:51.251 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 14:05:46.790 +02:00 [INF] Starting web server.
+2023-03-09 14:05:47.728 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:05:47.734 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:05:47.737 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:05:47.738 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:05:47.738 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:05:48.545 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:05:48.810 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 266.9784ms
+2023-03-09 14:05:48.907 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:05:48.909 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:05:48.915 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 5.6865ms
+2023-03-09 14:05:48.949 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.4919ms
+2023-03-09 14:05:49.057 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:05:49.195 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.0335ms
+2023-03-09 14:05:51.617 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:05:51.632 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 14.8812ms
+2023-03-09 14:05:51.723 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:05:51.733 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:05:51.743 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:05:51.750 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API)'
+2023-03-09 14:05:51.763 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 14:05:56.643 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ServicesResponseDto, Microservices.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:05:56.657 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API) in 4888.656ms
+2023-03-09 14:05:56.660 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Microservices.API)'
+2023-03-09 14:05:56.662 +02:00 [INF] The response has been cached.
+2023-03-09 14:05:56.668 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 200 - application/json;+charset=utf-8 4944.3314ms
+2023-03-09 14:06:34.305 +02:00 [INF] Starting web server.
+2023-03-09 14:06:34.932 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:06:34.936 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:06:34.940 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:06:34.941 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:06:34.946 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:06:35.747 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:06:36.130 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 388.2188ms
+2023-03-09 14:06:36.259 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:06:36.263 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:06:36.268 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 12003 application/javascript;+charset=utf-8 4.9795ms
+2023-03-09 14:06:36.300 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.0513ms
+2023-03-09 14:06:36.419 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:06:36.585 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.1586ms
+2023-03-09 14:07:15.607 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Clients - -
+2023-03-09 14:07:15.631 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Clients - - - 307 0 - 25.0179ms
+2023-03-09 14:07:15.730 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Clients - -
+2023-03-09 14:07:15.737 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:07:15.747 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:07:15.751 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllClients (Microservices.API)'
+2023-03-09 14:07:15.769 +02:00 [INF] Route matched with {action = "GetAllClients", controller = "Company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllClients() on controller Microservices.API.Controllers.CompanyController (Microservices.API).
+2023-03-09 14:07:15.983 +02:00 [INF] Starting controller Company action GetAllClients.
+2023-03-09 14:07:18.332 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ClientResponseDto, Microservices.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:07:18.349 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllClients (Microservices.API) in 2573.861ms
+2023-03-09 14:07:18.352 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllClients (Microservices.API)'
+2023-03-09 14:07:18.353 +02:00 [INF] The response has been cached.
+2023-03-09 14:07:18.358 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Clients - - - 200 - application/json;+charset=utf-8 2627.5138ms
+2023-03-09 14:07:21.016 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Clients - -
+2023-03-09 14:07:21.018 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Clients - - - 307 0 - 2.3644ms
+2023-03-09 14:07:21.034 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Clients - -
+2023-03-09 14:07:21.036 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:07:21.041 +02:00 [INF] Serving response from cache.
+2023-03-09 14:07:21.042 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Clients - - - 200 101 application/json;+charset=utf-8 8.4358ms
+2023-03-09 14:07:21.532 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Clients - -
+2023-03-09 14:07:21.534 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Clients - - - 307 0 - 1.8114ms
+2023-03-09 14:07:21.538 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Clients - -
+2023-03-09 14:07:21.540 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:07:21.542 +02:00 [INF] Serving response from cache.
+2023-03-09 14:07:21.546 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Clients - - - 200 101 application/json;+charset=utf-8 7.9665ms
+2023-03-09 14:07:21.964 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Clients - -
+2023-03-09 14:07:21.966 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Clients - - - 307 0 - 1.7104ms
+2023-03-09 14:07:21.970 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Clients - -
+2023-03-09 14:07:21.971 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:07:21.972 +02:00 [INF] Serving response from cache.
+2023-03-09 14:07:21.973 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Clients - - - 200 101 application/json;+charset=utf-8 3.5326ms
+2023-03-09 14:07:32.123 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Clients - -
+2023-03-09 14:07:32.124 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Clients - - - 307 0 - 1.3171ms
+2023-03-09 14:07:32.129 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Clients - -
+2023-03-09 14:07:32.132 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:07:32.133 +02:00 [INF] Serving response from cache.
+2023-03-09 14:07:32.136 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Clients - - - 200 101 application/json;+charset=utf-8 6.4806ms
+2023-03-09 14:15:45.478 +02:00 [INF] Starting web server.
+2023-03-09 14:15:46.024 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:15:46.027 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:15:46.031 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:15:46.033 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:15:46.035 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:15:48.776 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:15:49.159 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 386.8012ms
+2023-03-09 14:15:49.253 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:15:49.257 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:15:49.260 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 6.4734ms
+2023-03-09 14:15:49.383 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 125.0821ms
+2023-03-09 14:15:49.467 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:15:49.637 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.9165ms
+2023-03-09 14:15:51.652 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:15:51.659 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 7.4923ms
+2023-03-09 14:15:51.740 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:15:51.750 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:15:51.760 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:15:51.765 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:15:51.775 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Gateway.API).
+2023-03-09 14:15:56.312 +02:00 [INF] Failed Status(StatusCode="Unavailable", Detail="Error connecting to subchannel.", DebugException="System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.SocketConnectivitySubchannelTransport.TryConnectAsync(ConnectContext context)")
+2023-03-09 14:15:56.322 +02:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2023-03-09 14:15:56.327 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API) in 4546.1737ms
+2023-03-09 14:15:56.335 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:15:56.339 +02:00 [INF] The response could not be cached for this request.
+2023-03-09 14:15:56.344 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 204 - - 4604.1389ms
+2023-03-09 14:16:30.508 +02:00 [INF] Starting web server.
+2023-03-09 14:16:31.307 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:16:31.320 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:16:31.329 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:16:31.331 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:16:31.332 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:16:32.129 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:16:32.391 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 263.6764ms
+2023-03-09 14:16:32.499 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:16:32.499 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:16:32.504 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 5.4828ms
+2023-03-09 14:16:32.538 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.5247ms
+2023-03-09 14:16:32.696 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:16:32.851 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.5449ms
+2023-03-09 14:16:34.819 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:16:34.827 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 8.0977ms
+2023-03-09 14:16:34.905 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:16:34.913 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:16:34.922 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:16:34.928 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:16:34.942 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Gateway.API).
+2023-03-09 14:16:38.031 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ServicesResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:16:38.045 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API) in 3094.5045ms
+2023-03-09 14:16:38.049 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:16:38.052 +02:00 [INF] The response has been cached.
+2023-03-09 14:16:38.058 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 200 - application/json;+charset=utf-8 3152.6424ms
+2023-03-09 14:18:18.290 +02:00 [INF] Starting web server.
+2023-03-09 14:18:18.994 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:18:18.999 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:18:19.002 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:18:19.003 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:18:19.004 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:18:19.736 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:18:20.048 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 314.7950ms
+2023-03-09 14:18:20.168 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:18:20.170 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:18:20.182 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 11.5800ms
+2023-03-09 14:18:20.232 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.3904ms
+2023-03-09 14:18:20.330 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:18:20.477 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.0284ms
+2023-03-09 14:18:23.882 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:18:23.889 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 7.2434ms
+2023-03-09 14:18:23.970 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:18:23.978 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:18:23.986 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:18:23.989 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:18:24.000 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Gateway.API).
+2023-03-09 14:18:26.010 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ServicesResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:18:26.021 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API) in 2016.5505ms
+2023-03-09 14:18:26.025 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:18:26.028 +02:00 [INF] The response has been cached.
+2023-03-09 14:18:26.032 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 200 - application/json;+charset=utf-8 2061.2903ms
+2023-03-09 14:18:30.054 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Clients - -
+2023-03-09 14:18:30.056 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Clients - - - 307 0 - 1.8435ms
+2023-03-09 14:18:30.064 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Clients - -
+2023-03-09 14:18:30.065 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:18:30.067 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:18:30.068 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllClients (Gateway.API)'
+2023-03-09 14:18:30.077 +02:00 [INF] Route matched with {action = "GetAllClients", controller = "Company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllClients() on controller Microservices.API.Controllers.CompanyController (Gateway.API).
+2023-03-09 14:18:30.086 +02:00 [INF] Starting controller Company action GetAllClients.
+2023-03-09 14:18:31.526 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ClientResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:18:31.530 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllClients (Gateway.API) in 1449.6597ms
+2023-03-09 14:18:31.531 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllClients (Gateway.API)'
+2023-03-09 14:18:31.532 +02:00 [INF] The response has been cached.
+2023-03-09 14:18:31.533 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Clients - - - 200 - application/json;+charset=utf-8 1468.7836ms
+2023-03-09 14:20:01.418 +02:00 [INF] Starting web server.
+2023-03-09 14:20:01.969 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:20:01.974 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:20:01.976 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:20:01.977 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:20:01.977 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:20:02.543 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:20:02.791 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 249.1459ms
+2023-03-09 14:20:02.894 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:20:02.895 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:20:02.905 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 10.1056ms
+2023-03-09 14:20:02.941 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.0120ms
+2023-03-09 14:20:03.057 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:20:03.195 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.5414ms
+2023-03-09 14:22:17.738 +02:00 [INF] Starting web server.
+2023-03-09 14:22:18.386 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:22:18.397 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:22:18.401 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:22:18.403 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:22:18.404 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Microservices.API
+2023-03-09 14:22:19.499 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:22:19.875 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 378.4792ms
+2023-03-09 14:22:20.053 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:22:20.053 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:22:20.067 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 14.0241ms
+2023-03-09 14:22:20.387 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 333.8989ms
+2023-03-09 14:22:20.501 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:22:20.691 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 190.1925ms
+2023-03-09 14:22:23.918 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:22:23.928 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 9.9468ms
+2023-03-09 14:22:24.008 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:22:24.014 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:22:24.025 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:22:24.028 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:22:24.043 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Gateway.API).
+2023-03-09 14:22:26.073 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ServicesResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:22:26.090 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API) in 2038.0788ms
+2023-03-09 14:22:26.094 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:22:26.096 +02:00 [INF] The response has been cached.
+2023-03-09 14:22:26.101 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 200 - application/json;+charset=utf-8 2092.6865ms
+2023-03-09 14:26:57.086 +02:00 [INF] Starting web server.
+2023-03-09 14:26:57.663 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:26:57.666 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:26:57.668 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:26:57.668 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:26:57.669 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Gateway.API
+2023-03-09 14:26:58.363 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:26:58.676 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 315.1126ms
+2023-03-09 14:26:58.785 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:26:58.785 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:26:58.792 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 6.5571ms
+2023-03-09 14:26:58.866 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.4634ms
+2023-03-09 14:26:58.953 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:26:59.106 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 152.8347ms
+2023-03-09 14:27:01.319 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:27:01.331 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 12.9031ms
+2023-03-09 14:27:01.416 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:27:01.424 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:27:01.436 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:27:01.441 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:27:01.453 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Gateway.API).
+2023-03-09 14:27:03.654 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ServicesResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:27:03.668 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API) in 2209.8384ms
+2023-03-09 14:27:03.671 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:27:03.673 +02:00 [INF] The response has been cached.
+2023-03-09 14:27:03.678 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 200 - application/json;+charset=utf-8 2261.0861ms
+2023-03-09 14:31:34.222 +02:00 [INF] Starting web server.
+2023-03-09 14:31:34.735 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 14:31:34.741 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 14:31:34.743 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 14:31:34.744 +02:00 [INF] Hosting environment: Development
+2023-03-09 14:31:34.744 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Gateway\Gateway.API
+2023-03-09 14:31:41.168 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 14:31:41.536 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 371.4690ms
+2023-03-09 14:31:41.668 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 14:31:41.674 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 14:31:41.682 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.8750ms
+2023-03-09 14:31:41.830 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 161.9318ms
+2023-03-09 14:31:41.931 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 14:31:42.075 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.8662ms
+2023-03-09 14:31:44.424 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Services - -
+2023-03-09 14:31:44.431 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Services - - - 307 0 - 7.0645ms
+2023-03-09 14:31:44.508 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Services - -
+2023-03-09 14:31:44.516 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:31:44.527 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:31:44.531 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:31:44.541 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Company"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Microservices.API.Controllers.CompanyController (Gateway.API).
+2023-03-09 14:31:46.566 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ServicesResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:31:46.579 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API) in 2033.4574ms
+2023-03-09 14:31:46.583 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllServices (Gateway.API)'
+2023-03-09 14:31:46.586 +02:00 [INF] The response has been cached.
+2023-03-09 14:31:46.593 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Services - - - 200 - application/json;+charset=utf-8 2085.3523ms
+2023-03-09 14:31:55.439 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Company/Clients - -
+2023-03-09 14:31:55.440 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Company/Clients - - - 307 0 - 1.6338ms
+2023-03-09 14:31:55.448 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Company/Clients - -
+2023-03-09 14:31:55.450 +02:00 [INF] CORS policy execution successful.
+2023-03-09 14:31:55.451 +02:00 [INF] No cached response available for this request.
+2023-03-09 14:31:55.452 +02:00 [INF] Executing endpoint 'Microservices.API.Controllers.CompanyController.GetAllClients (Gateway.API)'
+2023-03-09 14:31:55.459 +02:00 [INF] Route matched with {action = "GetAllClients", controller = "Company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllClients() on controller Microservices.API.Controllers.CompanyController (Gateway.API).
+2023-03-09 14:31:55.470 +02:00 [INF] Starting controller Company action GetAllClients.
+2023-03-09 14:31:56.981 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ClientResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 14:31:56.985 +02:00 [INF] Executed action Microservices.API.Controllers.CompanyController.GetAllClients (Gateway.API) in 1523.15ms
+2023-03-09 14:31:56.986 +02:00 [INF] Executed endpoint 'Microservices.API.Controllers.CompanyController.GetAllClients (Gateway.API)'
+2023-03-09 14:31:56.987 +02:00 [INF] The response has been cached.
+2023-03-09 14:31:56.988 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Company/Clients - - - 200 - application/json;+charset=utf-8 1540.0898ms
+2023-03-09 16:34:06.459 +02:00 [INF] Starting web server.
+2023-03-09 16:34:07.774 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 16:34:07.779 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 16:34:07.797 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 16:34:07.803 +02:00 [INF] Hosting environment: Development
+2023-03-09 16:34:07.810 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Gateway\Gateway.API
+2023-03-09 16:34:09.107 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 16:34:09.481 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 380.4223ms
+2023-03-09 16:34:09.587 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 16:34:09.589 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 16:34:09.599 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 8.5060ms
+2023-03-09 16:34:09.654 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.8902ms
+2023-03-09 16:34:09.864 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 16:34:10.001 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.4152ms
+2023-03-09 16:34:13.792 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - -
+2023-03-09 16:34:13.799 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - - - 307 0 - 7.0161ms
+2023-03-09 16:34:13.883 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Clients/Clients - -
+2023-03-09 16:34:13.888 +02:00 [INF] CORS policy execution successful.
+2023-03-09 16:34:13.899 +02:00 [INF] No cached response available for this request.
+2023-03-09 16:34:13.902 +02:00 [INF] Executing endpoint 'Gateway.API.Controllers.ClientsController.GetAllClients (Gateway.API)'
+2023-03-09 16:34:13.922 +02:00 [INF] Route matched with {action = "GetAllClients", controller = "Clients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllClients() on controller Gateway.API.Controllers.ClientsController (Gateway.API).
+2023-03-09 16:34:13.986 +02:00 [INF] Starting controller Company action GetAllClients.
+2023-03-09 16:34:15.912 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ClientResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 16:34:15.924 +02:00 [INF] Executed action Gateway.API.Controllers.ClientsController.GetAllClients (Gateway.API) in 1995.2485ms
+2023-03-09 16:34:15.927 +02:00 [INF] Executed endpoint 'Gateway.API.Controllers.ClientsController.GetAllClients (Gateway.API)'
+2023-03-09 16:34:15.929 +02:00 [INF] The response has been cached.
+2023-03-09 16:34:15.932 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Clients/Clients - - - 200 - application/json;+charset=utf-8 2048.8240ms
+2023-03-09 16:34:21.799 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Offers/Services - -
+2023-03-09 16:34:21.803 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Offers/Services - - - 307 0 - 3.7517ms
+2023-03-09 16:34:21.809 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Offers/Services - -
+2023-03-09 16:34:21.812 +02:00 [INF] CORS policy execution successful.
+2023-03-09 16:34:21.815 +02:00 [INF] No cached response available for this request.
+2023-03-09 16:34:21.817 +02:00 [INF] Executing endpoint 'Gateway.API.Controllers.OffersController.GetAllServices (Gateway.API)'
+2023-03-09 16:34:21.820 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Offers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Gateway.API.Controllers.OffersController (Gateway.API).
+2023-03-09 16:34:23.476 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ServicesResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 16:34:23.482 +02:00 [INF] Executed action Gateway.API.Controllers.OffersController.GetAllServices (Gateway.API) in 1658.0264ms
+2023-03-09 16:34:23.484 +02:00 [INF] Executed endpoint 'Gateway.API.Controllers.OffersController.GetAllServices (Gateway.API)'
+2023-03-09 16:34:23.485 +02:00 [INF] The response has been cached.
+2023-03-09 16:34:23.486 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Offers/Services - - - 200 - application/json;+charset=utf-8 1677.2478ms
+2023-03-09 16:34:27.174 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 16:34:27.179 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 5.4093ms
+2023-03-09 16:34:27.191 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 16:34:27.193 +02:00 [INF] CORS policy execution successful.
+2023-03-09 16:34:27.195 +02:00 [INF] No cached response available for this request.
+2023-03-09 16:34:27.197 +02:00 [INF] Executing endpoint 'Gateway.API.Controllers.ProjectsController.GetAllProjects (Gateway.API)'
+2023-03-09 16:34:27.204 +02:00 [INF] Route matched with {action = "GetAllProjects", controller = "Projects"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProjects() on controller Gateway.API.Controllers.ProjectsController (Gateway.API).
+2023-03-09 16:34:27.208 +02:00 [INF] Starting controller Company action GetAllProjects.
+2023-03-09 16:34:28.740 +02:00 [INF] Returning all Projects to the caller.
+2023-03-09 16:34:28.741 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ProjectResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 16:34:28.742 +02:00 [INF] Executed action Gateway.API.Controllers.ProjectsController.GetAllProjects (Gateway.API) in 1535.824ms
+2023-03-09 16:34:28.743 +02:00 [INF] Executed endpoint 'Gateway.API.Controllers.ProjectsController.GetAllProjects (Gateway.API)'
+2023-03-09 16:34:28.745 +02:00 [INF] The response has been cached.
+2023-03-09 16:34:28.746 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 - application/json;+charset=utf-8 1555.1070ms
+2023-03-09 17:07:37.502 +02:00 [INF] Starting web server.
+2023-03-09 17:07:38.185 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 17:07:38.194 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 17:07:38.197 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:07:38.199 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:07:38.200 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Gateway\Gateway.API
+2023-03-09 17:07:38.738 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 17:07:39.109 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 374.2722ms
+2023-03-09 17:07:39.218 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 17:07:39.220 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 17:07:39.224 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 3.3584ms
+2023-03-09 17:07:39.248 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.0824ms
+2023-03-09 17:07:39.375 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 17:07:39.547 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.5864ms
+2023-03-09 17:07:44.901 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 17:07:44.911 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 9.6374ms
+2023-03-09 17:07:44.981 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 17:07:44.988 +02:00 [INF] CORS policy execution successful.
+2023-03-09 17:07:44.996 +02:00 [INF] No cached response available for this request.
+2023-03-09 17:07:44.999 +02:00 [INF] Executing endpoint 'Gateway.API.Controllers.EmployeesController.GetAllEmployees (Gateway.API)'
+2023-03-09 17:07:45.015 +02:00 [INF] Route matched with {action = "GetAllEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees() on controller Gateway.API.Controllers.EmployeesController (Gateway.API).
+2023-03-09 17:07:45.068 +02:00 [INF] Starting controller Company action GetAllEmployees.
+2023-03-09 17:07:46.796 +02:00 [INF] Returning all Employees to the caller.
+2023-03-09 17:07:46.801 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.EmployeeResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 17:07:46.816 +02:00 [INF] Executed action Gateway.API.Controllers.EmployeesController.GetAllEmployees (Gateway.API) in 1793.0661ms
+2023-03-09 17:07:46.821 +02:00 [INF] Executed endpoint 'Gateway.API.Controllers.EmployeesController.GetAllEmployees (Gateway.API)'
+2023-03-09 17:07:46.824 +02:00 [INF] The response has been cached.
+2023-03-09 17:07:46.828 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 - application/json;+charset=utf-8 1846.2223ms
+2023-03-09 17:08:03.218 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 17:08:03.220 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 1.8184ms
+2023-03-09 17:08:03.226 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 17:08:03.229 +02:00 [INF] CORS policy execution successful.
+2023-03-09 17:08:03.235 +02:00 [INF] Serving response from cache.
+2023-03-09 17:08:03.236 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 59 application/json;+charset=utf-8 10.0699ms
+2023-03-09 17:08:04.327 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 17:08:04.330 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 2.5659ms
+2023-03-09 17:08:04.334 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 17:08:04.335 +02:00 [INF] CORS policy execution successful.
+2023-03-09 17:08:04.337 +02:00 [INF] Serving response from cache.
+2023-03-09 17:08:04.338 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 59 application/json;+charset=utf-8 4.1910ms
+2023-03-09 17:16:31.645 +02:00 [INF] Starting web server.
+2023-03-09 17:16:32.259 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 17:16:32.263 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 17:16:32.265 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:16:32.266 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:16:32.268 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Gateway\Gateway.API
+2023-03-09 17:16:33.525 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 17:16:33.873 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 351.8237ms
+2023-03-09 17:16:33.974 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 17:16:33.976 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 17:16:33.982 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.9281ms
+2023-03-09 17:16:34.069 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 94.7117ms
+2023-03-09 17:16:34.151 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 17:16:34.320 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.4102ms
+2023-03-09 17:16:54.363 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - -
+2023-03-09 17:16:54.370 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - - - 307 0 - 8.9424ms
+2023-03-09 17:16:54.456 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Clients/Clients - -
+2023-03-09 17:16:54.461 +02:00 [INF] CORS policy execution successful.
+2023-03-09 17:16:54.470 +02:00 [INF] No cached response available for this request.
+2023-03-09 17:16:54.474 +02:00 [INF] Executing endpoint 'Gateway.API.Controllers.ClientsController.GetAllClients (Gateway.API)'
+2023-03-09 17:16:54.491 +02:00 [INF] Route matched with {action = "GetAllClients", controller = "Clients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllClients() on controller Gateway.API.Controllers.ClientsController (Gateway.API).
+2023-03-09 17:16:54.539 +02:00 [INF] Starting controller Company action GetAllClients.
+2023-03-09 17:16:56.535 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microservices.API.Entities.Dtos.DTO.Response.ClientResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 17:16:56.549 +02:00 [INF] Executed action Gateway.API.Controllers.ClientsController.GetAllClients (Gateway.API) in 2053.5127ms
+2023-03-09 17:16:56.553 +02:00 [INF] Executed endpoint 'Gateway.API.Controllers.ClientsController.GetAllClients (Gateway.API)'
+2023-03-09 17:16:56.557 +02:00 [INF] The response has been cached.
+2023-03-09 17:16:56.561 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Clients/Clients - - - 200 - application/json;+charset=utf-8 2104.7156ms
+2023-03-09 17:22:10.679 +02:00 [INF] Starting web server.
+2023-03-09 17:22:11.250 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 17:22:11.254 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 17:22:11.257 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:22:11.258 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:22:11.259 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Gateway\Gateway.API
+2023-03-09 17:22:18.043 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 17:22:18.278 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 238.7593ms
+2023-03-09 17:22:18.401 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 17:22:18.403 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 17:22:18.416 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 10.1740ms
+2023-03-09 17:22:18.452 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.6197ms
+2023-03-09 17:22:18.574 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 17:22:18.760 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 185.8380ms

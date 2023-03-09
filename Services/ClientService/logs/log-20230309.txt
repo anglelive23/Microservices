@@ -1,0 +1,5 @@
+2023-03-09 17:22:10.503 +02:00 [INF] Now listening on: http://localhost:5619
+2023-03-09 17:22:10.546 +02:00 [INF] Now listening on: https://localhost:7321
+2023-03-09 17:22:10.550 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:22:10.551 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:22:10.553 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ClientService
