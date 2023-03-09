@@ -1,7 +1,4 @@
-﻿using Gateway.API.gRPC;
-using Microsoft.AspNetCore.OutputCaching;
-
-namespace Gateway.API.Controllers
+﻿namespace Gateway.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

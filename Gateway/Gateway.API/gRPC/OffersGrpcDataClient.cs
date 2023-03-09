@@ -1,4 +1,4 @@
-﻿namespace Microservices.API.gRPC
+﻿namespace Gateway.API.gRPC
 {
     public interface IOffersGrpcDataClient
     {

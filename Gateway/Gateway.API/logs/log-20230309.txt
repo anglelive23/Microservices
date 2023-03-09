@@ -1069,3 +1069,17 @@ FROM [Employees] AS [e]
 2023-03-09 17:38:47.130 +02:00 [INF] CORS policy execution successful.
 2023-03-09 17:38:47.135 +02:00 [INF] Serving response from cache.
 2023-03-09 17:38:47.138 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 8.1863ms
+2023-03-09 17:52:50.147 +02:00 [INF] Starting web server.
+2023-03-09 17:52:50.659 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 17:52:50.661 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 17:52:50.663 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:52:50.664 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:52:50.664 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Gateway\Gateway.API
+2023-03-09 17:52:51.806 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 17:52:52.111 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 307.7246ms
+2023-03-09 17:52:52.234 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 17:52:52.236 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 17:52:52.248 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 11.9704ms
+2023-03-09 17:52:52.296 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.5982ms
+2023-03-09 17:52:52.399 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 17:52:52.544 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.3934ms

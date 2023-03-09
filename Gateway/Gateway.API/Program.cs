@@ -1,8 +1,3 @@
-using EmailService.Service;
-using EmailService.Settings;
-using Gateway.API.gRPC;
-using Microservices.API.gRPC;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,10 +18,6 @@ builder.Services.AddDbContext<FutureSystemsContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-
-//MailService
-builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
-builder.Services.AddScoped<IMailingService, MailingService>();
 
 // Cache
 builder.Services.AddOutputCache(options =>

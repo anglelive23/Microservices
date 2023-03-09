@@ -8,9 +8,10 @@ global using System.ComponentModel.DataAnnotations;
 global using Microservices.API.Entities.Data;
 global using Microservices.API.Entities.Models;
 global using Microservices.API.Entities.Dtos.DTO.Response;
-
+global using Microsoft.AspNetCore.OutputCaching;
 
 // GrpcServices
+global using Gateway.API.gRPC;
 global using static OfferService.GrpcOffersService;
 global using static ClientService.GrpcClientServices;
 global using static ProjectService.GrpcProjectService;

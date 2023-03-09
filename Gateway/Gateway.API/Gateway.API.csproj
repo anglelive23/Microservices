@@ -29,7 +29,6 @@
 
 	<ItemGroup>
 		<Folder Include="Entities\Models\MailModels\" />
-		<Folder Include="libs\" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -45,12 +44,6 @@
 	  <Protobuf Include="..\..\Services\ProjectService\Protos\project.proto" GrpcServices="Client">
 	    <Link>Protos\project.proto</Link>
 	  </Protobuf>
-	</ItemGroup>
-
-	<ItemGroup>
-		<Reference Include="MailService">
-			<HintPath>libs\MailService.dll</HintPath>
-		</Reference>
 	</ItemGroup>
 
 </Project>
