@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Microservices.API.Migrations
 {
-    [DbContext(typeof(FutureSystemsContext))]
+    [DbContext(typeof(GatewayContext))]
     [Migration("20230227124908_AddEmployeesTable")]
     partial class AddEmployeesTable
     {

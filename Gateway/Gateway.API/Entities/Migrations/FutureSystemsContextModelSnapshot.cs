@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Microservices.API.Migrations
 {
-    [DbContext(typeof(FutureSystemsContext))]
+    [DbContext(typeof(GatewayContext))]
     partial class FutureSystemsContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

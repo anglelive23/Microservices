@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Microservices.API.Migrations
 {
-    [DbContext(typeof(FutureSystemsContext))]
+    [DbContext(typeof(GatewayContext))]
     [Migration("20230306083537_AddImageUrlToServicesTable")]
     partial class AddImageUrlToServicesTable
     {

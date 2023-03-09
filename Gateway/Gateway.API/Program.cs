@@ -14,7 +14,7 @@ builder.Services.AddScoped<IProjectsGrpcDataClient, ProjectsGrpcDataClient>();
 builder.Services.AddScoped<IEmployeeGrpcDataClient, EmployeeGrpcDataClient>();
 
 // Data
-builder.Services.AddDbContext<FutureSystemsContext>(options =>
+builder.Services.AddDbContext<GatewayContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });

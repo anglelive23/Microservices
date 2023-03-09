@@ -2,9 +2,9 @@
 
 namespace Microservices.API.Entities.Data
 {
-    public class FutureSystemsContext : DbContext
+    public class GatewayContext : DbContext
     {
-        public FutureSystemsContext(DbContextOptions<FutureSystemsContext> options) : base(options) { }
+        public GatewayContext(DbContextOptions<GatewayContext> options) : base(options) { }
 
         public DbSet<Service> Services { get; set; }
         public DbSet<Project> Projects { get; set; }
