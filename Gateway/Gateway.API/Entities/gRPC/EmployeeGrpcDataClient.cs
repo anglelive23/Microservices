@@ -19,11 +19,12 @@
         public EmployeeGrpcDataClient(IConfiguration config)
         {
             _config = config;
-            _serviceUrl = _config["GrpcEmployeesServiceUrl"];
+            _serviceUrl = _config["GrpcEmployeesServiceUrl"] ?? "https://localhost:7030";
             _channel = GrpcChannel.ForAddress(_serviceUrl);
             _client = new GrpcEmployeeServiceClient(_channel);
         }
         #endregion
+
         public IList<EmployeeResponseDto> GetAllEmployees()
         {
             try

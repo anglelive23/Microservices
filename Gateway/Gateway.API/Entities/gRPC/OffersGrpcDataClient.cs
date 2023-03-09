@@ -18,7 +18,7 @@
         public OffersGrpcDataClient(IConfiguration config)
         {
             _config = config;
-            _serviceUrl = _config["GrpcOffersServiceUrl"];
+            _serviceUrl = _config["GrpcOffersServiceUrl"] ?? "https://localhost:7596";
             _channel = GrpcChannel.ForAddress(_serviceUrl);
             _client = new GrpcOffersServiceClient(_channel);
         }

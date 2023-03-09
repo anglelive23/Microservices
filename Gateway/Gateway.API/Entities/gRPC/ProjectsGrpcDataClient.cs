@@ -17,7 +17,7 @@
         public ProjectsGrpcDataClient(IConfiguration config)
         {
             _config = config;
-            _serviceUrl = _config["GrpcProjectsServiceUrl"];
+            _serviceUrl = _config["GrpcProjectsServiceUrl"] ?? "https://localhost:7247";
             _channel = GrpcChannel.ForAddress(_serviceUrl);
             _client = new GrpcProjectServiceClient(_channel);
         }
