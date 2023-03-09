@@ -17,4 +17,6 @@ Some of used packages:
 
 6- Output caching (.NET 7.0 feature)
 
+7- UnitOfWork with Generic repository design pattern
+
 .NET version -> 7.0
