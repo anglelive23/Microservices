@@ -15,4 +15,6 @@ Some of used packages:
 
 5- gRPC
 
+6- Output caching (.NET 7.0 feature)
+
 .NET version -> 7.0
