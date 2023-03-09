@@ -1,5 +1,6 @@
 using EmailService.Service;
 using EmailService.Settings;
+using Gateway.API.gRPC;
 using Microservices.API.gRPC;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,13 +15,14 @@ builder.Services.AddSwaggerGen();
 // Grpc
 builder.Services.AddScoped<IOffersGrpcDataClient, OffersGrpcDataClient>();
 builder.Services.AddScoped<IClientsGrpcDataClient, ClientsGrpcDataClient>();
+builder.Services.AddScoped<IProjectsGrpcDataClient, ProjectsGrpcDataClient>();
+builder.Services.AddScoped<IEmployeeGrpcDataClient, EmployeeGrpcDataClient>();
 
 // Data
 builder.Services.AddDbContext<FutureSystemsContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //MailService
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));

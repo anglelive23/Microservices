@@ -36,17 +36,20 @@
 	  <Protobuf Include="..\..\Services\ClientService\Protos\client.proto" GrpcServices="Client">
 	    <Link>Protos\client.proto</Link>
 	  </Protobuf>
+	  <Protobuf Include="..\..\Services\EmployeeService\Protos\employee.proto" GrpcServices="Client">
+	    <Link>Protos\employee.proto</Link>
+	  </Protobuf>
 	  <Protobuf Include="..\..\Services\OfferService\Protos\offer.proto" GrpcServices="Client">
 	    <Link>Protos\offer.proto</Link>
+	  </Protobuf>
+	  <Protobuf Include="..\..\Services\ProjectService\Protos\project.proto" GrpcServices="Client">
+	    <Link>Protos\project.proto</Link>
 	  </Protobuf>
 	</ItemGroup>
 
 	<ItemGroup>
 		<Reference Include="MailService">
 			<HintPath>libs\MailService.dll</HintPath>
-		</Reference>
-		<Reference Include="Utils.REPO">
-			<HintPath>libs\Utils.REPO.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 

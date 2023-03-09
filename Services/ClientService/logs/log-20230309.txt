@@ -3,3 +3,32 @@
 2023-03-09 17:22:10.550 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-03-09 17:22:10.551 +02:00 [INF] Hosting environment: Development
 2023-03-09 17:22:10.553 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ClientService
+2023-03-09 17:30:27.193 +02:00 [INF] Now listening on: http://localhost:5619
+2023-03-09 17:30:27.233 +02:00 [INF] Now listening on: https://localhost:7321
+2023-03-09 17:30:27.238 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:30:27.239 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:30:27.241 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ClientService
+2023-03-09 17:30:41.224 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7321/GrpcClientServices/GetAllClients application/grpc -
+2023-03-09 17:30:41.312 +02:00 [INF] Executing endpoint 'gRPC - /GrpcClientServices/GetAllClients'
+2023-03-09 17:30:43.547 +02:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[ImageUrl], [c].[Name]
+FROM [Clients] AS [c]
+2023-03-09 17:30:43.653 +02:00 [INF] Executed endpoint 'gRPC - /GrpcClientServices/GetAllClients'
+2023-03-09 17:30:43.671 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7321/GrpcClientServices/GetAllClients application/grpc - - 200 - application/grpc 2448.9954ms
+2023-03-09 17:35:01.698 +02:00 [INF] Now listening on: http://localhost:5619
+2023-03-09 17:35:01.745 +02:00 [INF] Now listening on: https://localhost:7321
+2023-03-09 17:35:01.748 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:35:01.750 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:35:01.754 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ClientService
+2023-03-09 17:36:58.713 +02:00 [INF] Now listening on: http://localhost:5619
+2023-03-09 17:36:58.762 +02:00 [INF] Now listening on: https://localhost:7321
+2023-03-09 17:36:58.766 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:36:58.772 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:36:58.775 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ClientService
+2023-03-09 17:37:48.278 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7321/GrpcClientServices/GetAllClients application/grpc -
+2023-03-09 17:37:48.400 +02:00 [INF] Executing endpoint 'gRPC - /GrpcClientServices/GetAllClients'
+2023-03-09 17:37:49.683 +02:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[ImageUrl], [c].[Name]
+FROM [Clients] AS [c]
+2023-03-09 17:37:49.794 +02:00 [INF] Executed endpoint 'gRPC - /GrpcClientServices/GetAllClients'
+2023-03-09 17:37:49.815 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7321/GrpcClientServices/GetAllClients application/grpc - - 200 - application/grpc 1538.3858ms

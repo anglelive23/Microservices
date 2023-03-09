@@ -18,7 +18,7 @@
         public OffersGrpcDataClient(IConfiguration config)
         {
             _config = config;
-            _serviceUrl = _config["GrpcServicesAPIUrl"];
+            _serviceUrl = _config["GrpcOffersServiceUrl"];
             _channel = GrpcChannel.ForAddress(_serviceUrl);
             _client = new GrpcOffersServiceClient(_channel);
         }

@@ -1,0 +1,10 @@
+﻿global using Serilog;
+global using Mapster;
+global using Utils.REPO;
+global using Grpc.Core;
+global using ProjectService.Entities.Repo;
+global using ProjectService.Entities.Data;
+global using ProjectService.Entities.Models;
+global using Microsoft.EntityFrameworkCore;
+global using System.ComponentModel.DataAnnotations;
+global using Google.Protobuf.WellKnownTypes;

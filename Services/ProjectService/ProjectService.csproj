@@ -7,11 +7,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Remove="Protos\offer.proto" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Protobuf Include="Protos\offer.proto" GrpcServices="Server" />
+	  <None Remove="Protos\project.proto" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -24,6 +20,10 @@
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Protobuf Include="Protos\project.proto" GrpcServices="Server" />
 	</ItemGroup>
 
 	<ItemGroup>

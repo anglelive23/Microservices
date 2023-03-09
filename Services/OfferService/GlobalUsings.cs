@@ -1,4 +1,5 @@
-﻿global using Mapster;
+﻿global using Serilog;
+global using Mapster;
 global using Grpc.Core;
 global using Utils.REPO;
 global using Google.Protobuf.WellKnownTypes;
