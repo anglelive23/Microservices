@@ -37,3 +37,8 @@ FROM [Services] AS [s]
 2023-03-09 18:05:46.088 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-03-09 18:05:46.092 +02:00 [INF] Hosting environment: Development
 2023-03-09 18:05:46.094 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\OfferService
+2023-03-09 18:27:45.221 +02:00 [INF] Now listening on: http://localhost:5324
+2023-03-09 18:27:45.255 +02:00 [INF] Now listening on: https://localhost:7596
+2023-03-09 18:27:45.257 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 18:27:45.258 +02:00 [INF] Hosting environment: Development
+2023-03-09 18:27:45.258 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\OfferService

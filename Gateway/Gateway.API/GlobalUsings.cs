@@ -11,7 +11,7 @@ global using Gateway.API.Entities.Dtos.DTO.Response;
 global using Microsoft.AspNetCore.OutputCaching;
 
 // GrpcServices
-global using Gateway.API.gRPC;
+global using Gateway.API.Entities.gRPC;
 global using static OfferService.GrpcOffersService;
 global using static ClientService.GrpcClientServices;
 global using static ProjectService.GrpcProjectService;
