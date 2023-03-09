@@ -5,10 +5,10 @@ option csharp_namespace = "ClientService";
 import "google/protobuf/empty.proto";
 
 service GrpcClientServices {
-    rpc GetAllClients(google.protobuf.Empty) returns(GrpClientResponse);
+    rpc GetAllClients(google.protobuf.Empty) returns(GrpcClientResponse);
 }
 
-message GrpClientResponse {
+message GrpcClientResponse {
     repeated GrpcClientModel client = 1;
 }
 

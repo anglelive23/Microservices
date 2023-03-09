@@ -7,7 +7,7 @@
 
     public class OffersGrpcDataClient : IOffersGrpcDataClient
     {
-        #region Fields
+        #region Services
         private readonly IConfiguration _config;
         private readonly GrpcChannel _channel;
         private readonly GrpcOffersServiceClient _client;

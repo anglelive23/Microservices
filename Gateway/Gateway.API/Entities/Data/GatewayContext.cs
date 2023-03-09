@@ -1,6 +1,4 @@
-﻿using Gateway.API.Entities.Models;
-
-namespace Gateway.API.Entities.Data
+﻿namespace Gateway.API.Entities.Data
 {
     public class GatewayContext : DbContext
     {

@@ -18,14 +18,18 @@
         }
         #endregion
 
+        #region Dispose
         public void Dispose()
         {
             _context.Dispose();
         }
+        #endregion
 
+        #region Save
         public bool Save()
         {
             return _context.SaveChanges() > 0;
         }
+        #endregion
     }
 }

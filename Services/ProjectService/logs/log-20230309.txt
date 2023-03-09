@@ -35,3 +35,8 @@ FROM [Projects] AS [p]
 2023-03-09 18:27:44.501 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-03-09 18:27:44.502 +02:00 [INF] Hosting environment: Development
 2023-03-09 18:27:44.504 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ProjectService
+2023-03-09 19:00:18.147 +02:00 [INF] Now listening on: http://localhost:5262
+2023-03-09 19:00:18.217 +02:00 [INF] Now listening on: https://localhost:7247
+2023-03-09 19:00:18.223 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 19:00:18.228 +02:00 [INF] Hosting environment: Development
+2023-03-09 19:00:18.229 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ProjectService

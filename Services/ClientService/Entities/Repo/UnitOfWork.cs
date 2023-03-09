@@ -20,13 +20,18 @@ namespace ClientService.Entities.Repo
         }
         #endregion
 
+        #region Save
         public int Save()
         {
             return _context.SaveChanges();
         }
+        #endregion
+
+        #region Dispose
         public void Dispose()
         {
             _context.Dispose();
         }
+        #endregion
     }
 }

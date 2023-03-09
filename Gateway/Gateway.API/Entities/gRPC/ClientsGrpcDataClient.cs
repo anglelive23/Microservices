@@ -7,10 +7,14 @@
 
     class ClientsGrpcDataClient : IClientsGrpcDataClient
     {
+        #region Services
         private readonly IConfiguration _config;
         private readonly GrpcChannel _channel;
         private readonly GrpcClientServicesClient _client;
         private readonly string _serviceUrl;
+        #endregion
+
+        #region Constructors
         public ClientsGrpcDataClient(IConfiguration config)
         {
             _config = config;
@@ -18,6 +22,9 @@
             _channel = GrpcChannel.ForAddress(_serviceUrl);
             _client = new GrpcClientServicesClient(_channel);
         }
+        #endregion
+
+        #region GET
         public IList<ClientResponseDto> GetAllClients()
         {
             try
@@ -36,5 +43,6 @@
                 return Enumerable.Empty<ClientResponseDto>().ToList();
             }
         }
+        #endregion
     }
 }

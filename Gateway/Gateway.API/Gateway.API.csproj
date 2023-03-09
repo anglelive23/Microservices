@@ -28,10 +28,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Entities\Models\MailModels\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <Protobuf Include="..\..\Services\ClientService\Protos\client.proto" GrpcServices="Client">
 	    <Link>Protos\client.proto</Link>
 	  </Protobuf>

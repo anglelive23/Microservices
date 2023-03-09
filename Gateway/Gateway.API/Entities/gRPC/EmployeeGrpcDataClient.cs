@@ -12,7 +12,6 @@
         private readonly string _serviceUrl;
         private readonly GrpcChannel _channel;
         private readonly GrpcEmployeeServiceClient _client;
-
         #endregion
 
         #region Constructors
@@ -25,6 +24,7 @@
         }
         #endregion
 
+        #region GET
         public IList<EmployeeResponseDto> GetAllEmployees()
         {
             try
@@ -42,7 +42,7 @@
                 Log.Error($"Something went wrong.. {ex.Message}");
                 return Enumerable.Empty<EmployeeResponseDto>().ToList();
             }
-
         }
+        #endregion
     }
 }

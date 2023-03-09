@@ -12,6 +12,8 @@
             _unitOfWork = unitOfWork;
         }
         #endregion
+
+        #region GET
         public override async Task<GrpcEmployeeResponse> GetAllEmployees(Empty request, ServerCallContext context)
         {
             var employees = await _unitOfWork.Employees.GetAllAsync();
@@ -22,5 +24,6 @@
             }
             return response;
         }
+        #endregion
     }
 }

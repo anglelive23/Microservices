@@ -23,6 +23,7 @@
         }
         #endregion
 
+        #region GET
         public IList<ProjectResponseDto> GetAllProjects()
         {
             try
@@ -41,5 +42,6 @@
                 return Enumerable.Empty<ProjectResponseDto>().ToList();
             }
         }
+        #endregion
     }
 }

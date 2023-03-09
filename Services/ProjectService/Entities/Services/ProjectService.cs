@@ -13,6 +13,7 @@
         }
         #endregion
 
+        #region GET
         public override async Task<GrpcProjectResponse> GetAllProjects(Empty request, ServerCallContext context)
         {
             var projects = await _unitOfWork.Projects.GetAllAsync();
@@ -23,5 +24,6 @@
             }
             return response;
         }
+        #endregion
     }
 }
