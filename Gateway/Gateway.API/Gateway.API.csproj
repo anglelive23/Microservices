@@ -33,12 +33,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Protobuf Include="..\ClientService\Protos\client.proto" GrpcServices="Client">
-			<Link>Protos\client.proto</Link>
-		</Protobuf>
-		<Protobuf Include="..\OfferService\Protos\offer.proto" GrpcServices="Client">
-			<Link>Protos\offer.proto</Link>
-		</Protobuf>
+	  <Protobuf Include="..\..\Services\ClientService\Protos\client.proto" GrpcServices="Client">
+	    <Link>Protos\client.proto</Link>
+	  </Protobuf>
+	  <Protobuf Include="..\..\Services\OfferService\Protos\offer.proto" GrpcServices="Client">
+	    <Link>Protos\offer.proto</Link>
+	  </Protobuf>
 	</ItemGroup>
 
 	<ItemGroup>
