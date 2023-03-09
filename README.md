@@ -14,3 +14,5 @@ Some of used packages:
 4- Utils.Repo
 
 5- gRPC
+
+.NET version -> 7.0
