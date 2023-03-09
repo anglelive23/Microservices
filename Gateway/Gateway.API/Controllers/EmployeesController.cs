@@ -24,6 +24,7 @@
             {
                 Log.Information("Starting controller Company action GetAllEmployees.");
                 var employees = _grpc.GetAllEmployees();
+
                 if (!employees.Any())
                     return NotFound("Employees is null or empty.");
 

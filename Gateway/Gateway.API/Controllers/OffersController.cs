@@ -23,6 +23,10 @@
             try
             {
                 var services = _grpc.GetAllServices();
+
+                if (!services.Any())
+                    return NotFound("Services is null or empty.");
+
                 return Ok(services);
             }
             catch (Exception ex)

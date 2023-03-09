@@ -25,6 +25,11 @@
                 Log.Information("Starting controller Company action GetAllClients.");
                 var clients = _grpc.GetAllClients();
 
+                if (!clients.Any())
+                {
+                    return NotFound("Clients is null or empty.");
+                }
+
                 return await Task.FromResult(Ok(clients));
             }
             catch (Exception ex)
