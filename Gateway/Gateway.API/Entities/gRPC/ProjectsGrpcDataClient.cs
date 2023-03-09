@@ -1,4 +1,4 @@
-﻿namespace Gateway.API.gRPC
+﻿namespace Gateway.API.Entities.gRPC
 {
     public interface IProjectsGrpcDataClient
     {

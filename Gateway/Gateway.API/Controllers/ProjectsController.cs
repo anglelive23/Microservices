@@ -1,4 +1,6 @@
-﻿namespace Gateway.API.Controllers
+﻿using Gateway.API.Entities.gRPC;
+
+namespace Gateway.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
