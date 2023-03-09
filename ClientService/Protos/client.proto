@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "ClientService";
+
+import "google/protobuf/empty.proto";
+
+service GrpcClientServices {
+    rpc GetAllClients(google.protobuf.Empty) returns(GrpClientResponse);
+}
+
+message GrpClientResponse {
+    repeated GrpcClientModel client = 1;
+}
+
+message GrpcClientModel {
+    int32 Id = 1;
+    string Name = 2;
+    string ImageUrl = 3;
+}

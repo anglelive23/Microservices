@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Grpc.AspNetCore" Version="2.49.0" />
+		<PackageReference Include="MailKit" Version="3.4.0" />
+		<PackageReference Include="Mapster" Version="7.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="MimeKit" Version="3.4.0" />
+		<PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+		<PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Entities\Models\MailModels\" />
+		<Folder Include="libs\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Protobuf Include="..\ClientService\Protos\client.proto" GrpcServices="Client">
+			<Link>Protos\client.proto</Link>
+		</Protobuf>
+		<Protobuf Include="..\OfferService\Protos\offer.proto" GrpcServices="Client">
+			<Link>Protos\offer.proto</Link>
+		</Protobuf>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="MailService">
+			<HintPath>libs\MailService.dll</HintPath>
+		</Reference>
+		<Reference Include="Utils.REPO">
+			<HintPath>libs\Utils.REPO.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

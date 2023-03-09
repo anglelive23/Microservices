@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/wrappers.proto";
+
+option csharp_namespace = "OfferService";
+
+
+service GrpcOffersService {
+  rpc GetAllOffers(google.protobuf.Empty) returns(GrpcOffersResponse);
+}
+
+message GrpcOfferModel {
+    int32 Id = 1;
+    string Name = 2;
+    string Brief = 3;
+    string Description = 4;
+    google.protobuf.StringValue LogoUrl = 5;
+    google.protobuf.StringValue ImageUrl1 = 6;
+    google.protobuf.StringValue ImageUrl2 = 7;
+}
+
+message GrpcOffersResponse {
+    repeated GrpcOfferModel offer = 1;
+}
+

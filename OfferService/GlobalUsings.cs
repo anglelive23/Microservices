@@ -1,0 +1,10 @@
+﻿global using Mapster;
+global using Grpc.Core;
+global using Utils.REPO;
+global using Google.Protobuf.WellKnownTypes;
+global using Microsoft.EntityFrameworkCore;
+global using OfferService.Entities.Services;
+global using OfferService.Entities.Data;
+global using OfferService.Entities.Repos;
+global using OfferService.Entities.Models;
+global using System.ComponentModel.DataAnnotations;
