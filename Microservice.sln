@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.API", "Microservices.API\Microservices.API.csproj", "{862EF6A2-7C79-4FFF-A887-1855A7ECF563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway.API", "Microservices.API\Gateway.API.csproj", "{862EF6A2-7C79-4FFF-A887-1855A7ECF563}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfferService", "OfferService\OfferService.csproj", "{A0CBE79C-A619-4189-A4AA-28067F0F2AFE}"
 EndProject
