@@ -1,0 +1,27 @@
+2023-03-09 17:30:27.463 +02:00 [INF] Now listening on: http://localhost:5262
+2023-03-09 17:30:27.510 +02:00 [INF] Now listening on: https://localhost:7247
+2023-03-09 17:30:27.513 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:30:27.515 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:30:27.516 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ProjectService
+2023-03-09 17:35:01.694 +02:00 [INF] Now listening on: http://localhost:5262
+2023-03-09 17:35:01.735 +02:00 [INF] Now listening on: https://localhost:7247
+2023-03-09 17:35:01.739 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:35:01.741 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:35:01.742 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ProjectService
+2023-03-09 17:36:59.104 +02:00 [INF] Now listening on: http://localhost:5262
+2023-03-09 17:36:59.139 +02:00 [INF] Now listening on: https://localhost:7247
+2023-03-09 17:36:59.141 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:36:59.142 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:36:59.142 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ProjectService
+2023-03-09 17:38:40.287 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7247/GrpcProjectService/GetAllProjects application/grpc -
+2023-03-09 17:38:40.411 +02:00 [INF] Executing endpoint 'gRPC - /GrpcProjectService/GetAllProjects'
+2023-03-09 17:38:42.032 +02:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[ProjectUrl]
+FROM [Projects] AS [p]
+2023-03-09 17:38:42.178 +02:00 [INF] Executed endpoint 'gRPC - /GrpcProjectService/GetAllProjects'
+2023-03-09 17:38:42.197 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7247/GrpcProjectService/GetAllProjects application/grpc - - 200 - application/grpc 1912.1150ms
+2023-03-09 17:52:50.046 +02:00 [INF] Now listening on: http://localhost:5262
+2023-03-09 17:52:50.084 +02:00 [INF] Now listening on: https://localhost:7247
+2023-03-09 17:52:50.088 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 17:52:50.090 +02:00 [INF] Hosting environment: Development
+2023-03-09 17:52:50.091 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ProjectService
