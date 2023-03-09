@@ -25,13 +25,21 @@
 
         public IList<ProjectResponseDto> GetAllProjects()
         {
-            var projects = _client.GetAllProjects(new Empty());
-            var response = new List<ProjectResponseDto>();
-            foreach (var item in projects.Project)
+            try
             {
-                response.Add(item.Adapt<ProjectResponseDto>());
+                var projects = _client.GetAllProjects(new Empty());
+                var response = new List<ProjectResponseDto>();
+                foreach (var item in projects.Project)
+                {
+                    response.Add(item.Adapt<ProjectResponseDto>());
+                }
+                return response;
             }
-            return response;
+            catch (Exception ex)
+            {
+                Log.Error($"Something went wrong.. {ex.Message}");
+                return Enumerable.Empty<ProjectResponseDto>().ToList();
+            }
         }
     }
 }

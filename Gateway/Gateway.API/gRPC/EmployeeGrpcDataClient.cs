@@ -26,13 +26,22 @@
         #endregion
         public IList<EmployeeResponseDto> GetAllEmployees()
         {
-            var employees = _client.GetAllEmployees(new Empty());
-            var response = new List<EmployeeResponseDto>();
-            foreach (var emp in employees.Employee)
+            try
             {
-                response.Add(emp.Adapt<EmployeeResponseDto>());
+                var employees = _client.GetAllEmployees(new Empty());
+                var response = new List<EmployeeResponseDto>();
+                foreach (var emp in employees.Employee)
+                {
+                    response.Add(emp.Adapt<EmployeeResponseDto>());
+                }
+                return response;
             }
-            return response;
+            catch (Exception ex)
+            {
+                Log.Error($"Something went wrong.. {ex.Message}");
+                return Enumerable.Empty<EmployeeResponseDto>().ToList();
+            }
+
         }
     }
 }

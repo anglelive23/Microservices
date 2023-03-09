@@ -39,8 +39,8 @@
             }
             catch (Exception ex)
             {
-                Log.Information($"Failed {ex.Message}");
-                return null;
+                Log.Error($"Something went wrong.. {ex.Message}");
+                return Enumerable.Empty<ServicesResponseDto>().ToList();
             }
         }
         #endregion
