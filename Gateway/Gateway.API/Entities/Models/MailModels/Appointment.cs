@@ -1,4 +1,4 @@
-﻿namespace Microservices.API.Entities.Models.MailModels
+﻿namespace Gateway.API.Entities.Models.MailModels
 {
     public class Appointment
     {

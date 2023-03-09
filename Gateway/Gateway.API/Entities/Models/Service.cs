@@ -1,4 +1,4 @@
-﻿namespace Microservices.API.Entities.Models
+﻿namespace Gateway.API.Entities.Models
 {
     public class Service
     {

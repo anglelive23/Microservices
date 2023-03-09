@@ -1,6 +1,6 @@
-﻿using Microservices.API.Entities.Models;
+﻿using Gateway.API.Entities.Models;
 
-namespace Microservices.API.Entities.Data
+namespace Gateway.API.Entities.Data
 {
     public class GatewayContext : DbContext
     {

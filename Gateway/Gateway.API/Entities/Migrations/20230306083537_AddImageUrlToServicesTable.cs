@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Microservices.API.Migrations
+namespace Gateway.API.Migrations
 {
     /// <inheritdoc />
     public partial class AddImageUrlToServicesTable : Migration

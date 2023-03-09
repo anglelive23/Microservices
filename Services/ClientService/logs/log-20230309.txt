@@ -37,3 +37,28 @@ FROM [Clients] AS [c]
 2023-03-09 17:52:49.665 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-03-09 17:52:49.667 +02:00 [INF] Hosting environment: Development
 2023-03-09 17:52:49.668 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ClientService
+2023-03-09 18:05:23.428 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-09 18:05:23.476 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-09 18:05:23.478 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-09 18:05:23.479 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-09 18:05:23.501 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-09 18:05:23.510 +02:00 [INF] No migrations were applied. The database is already up to date.
+2023-03-09 18:05:44.301 +02:00 [INF] Now listening on: http://localhost:5619
+2023-03-09 18:05:44.342 +02:00 [INF] Now listening on: https://localhost:7321
+2023-03-09 18:05:44.345 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 18:05:44.346 +02:00 [INF] Hosting environment: Development
+2023-03-09 18:05:44.347 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ClientService
+2023-03-09 18:05:50.485 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7321/GrpcClientServices/GetAllClients application/grpc -
+2023-03-09 18:05:50.578 +02:00 [INF] Executing endpoint 'gRPC - /GrpcClientServices/GetAllClients'
+2023-03-09 18:05:51.812 +02:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[ImageUrl], [c].[Name]
+FROM [Clients] AS [c]
+2023-03-09 18:05:51.942 +02:00 [INF] Executed endpoint 'gRPC - /GrpcClientServices/GetAllClients'
+2023-03-09 18:05:51.960 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7321/GrpcClientServices/GetAllClients application/grpc - - 200 - application/grpc 1476.0676ms

@@ -5,9 +5,9 @@ global using Google.Protobuf.WellKnownTypes;
 global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.EntityFrameworkCore;
 global using System.ComponentModel.DataAnnotations;
-global using Microservices.API.Entities.Data;
-global using Microservices.API.Entities.Models;
-global using Microservices.API.Entities.Dtos.DTO.Response;
+global using Gateway.API.Entities.Data;
+global using Gateway.API.Entities.Models;
+global using Gateway.API.Entities.Dtos.DTO.Response;
 global using Microsoft.AspNetCore.OutputCaching;
 
 // GrpcServices

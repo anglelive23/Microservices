@@ -1,4 +1,4 @@
-﻿namespace Microservices.API.Entities.Dtos.DTO.Response
+﻿namespace Gateway.API.Entities.Dtos.DTO.Response
 {
     public class ImageResponseDto
     {
