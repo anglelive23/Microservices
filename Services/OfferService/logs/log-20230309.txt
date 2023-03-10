@@ -47,3 +47,15 @@ FROM [Services] AS [s]
 2023-03-09 19:00:18.367 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-03-09 19:00:18.369 +02:00 [INF] Hosting environment: Development
 2023-03-09 19:00:18.369 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\OfferService
+2023-03-09 20:18:23.342 +02:00 [INF] Now listening on: http://localhost:5324
+2023-03-09 20:18:23.379 +02:00 [INF] Now listening on: https://localhost:7596
+2023-03-09 20:18:23.382 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 20:18:23.383 +02:00 [INF] Hosting environment: Development
+2023-03-09 20:18:23.384 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\OfferService
+2023-03-09 20:18:38.274 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7596/GrpcOffersService/GetAllOffers application/grpc -
+2023-03-09 20:18:38.360 +02:00 [INF] Executing endpoint 'gRPC - /GrpcOffersService/GetAllOffers'
+2023-03-09 20:18:39.559 +02:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Brief], [s].[Description], [s].[ImageUrl1], [s].[ImageUrl2], [s].[LogoUrl], [s].[Name]
+FROM [Services] AS [s]
+2023-03-09 20:18:39.664 +02:00 [INF] Executed endpoint 'gRPC - /GrpcOffersService/GetAllOffers'
+2023-03-09 20:18:39.678 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7596/GrpcOffersService/GetAllOffers application/grpc - - 200 - application/grpc 1405.6575ms

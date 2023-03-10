@@ -47,3 +47,15 @@ FROM [Employees] AS [e]
 2023-03-09 19:00:18.226 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-03-09 19:00:18.228 +02:00 [INF] Hosting environment: Development
 2023-03-09 19:00:18.229 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\EmployeeService
+2023-03-09 20:18:23.291 +02:00 [INF] Now listening on: https://localhost:7030
+2023-03-09 20:18:23.342 +02:00 [INF] Now listening on: http://localhost:5285
+2023-03-09 20:18:23.358 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 20:18:23.361 +02:00 [INF] Hosting environment: Development
+2023-03-09 20:18:23.364 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\EmployeeService
+2023-03-09 20:18:45.846 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7030/GrpcEmployeeService/GetAllEmployees application/grpc -
+2023-03-09 20:18:45.923 +02:00 [INF] Executing endpoint 'gRPC - /GrpcEmployeeService/GetAllEmployees'
+2023-03-09 20:18:47.085 +02:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[ImageUrl], [e].[Name], [e].[Role]
+FROM [Employees] AS [e]
+2023-03-09 20:18:47.180 +02:00 [INF] Executed endpoint 'gRPC - /GrpcEmployeeService/GetAllEmployees'
+2023-03-09 20:18:47.202 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7030/GrpcEmployeeService/GetAllEmployees application/grpc - - 200 - application/grpc 1354.9055ms

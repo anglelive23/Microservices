@@ -1,8 +1,6 @@
-﻿using Gateway.API.Entities.gRPC;
-
-namespace Gateway.API.Controllers
+﻿namespace Gateway.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("gateway/[controller]")]
     [ApiController]
     public class ProjectsController : ControllerBase
     {
@@ -17,7 +15,7 @@ namespace Gateway.API.Controllers
         }
         #endregion
 
-        [HttpGet("Projects")]
+        [HttpGet("GetAll")]
         [ProducesResponseType(200, Type = typeof(List<ProjectResponseDto>))]
         [OutputCache(PolicyName = "Projects")]
         public async Task<IActionResult> GetAllProjects()

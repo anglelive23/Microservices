@@ -1,8 +1,6 @@
-﻿using Gateway.API.Entities.gRPC;
-
-namespace Gateway.API.Controllers
+﻿namespace Gateway.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("gateway/[controller]")]
     [ApiController]
     public class OffersController : ControllerBase
     {
@@ -17,7 +15,7 @@ namespace Gateway.API.Controllers
         }
         #endregion
 
-        [HttpGet("Services")]
+        [HttpGet("GetAll")]
         [ProducesResponseType(200, Type = typeof(List<ServicesResponseDto>))]
         [OutputCache(PolicyName = "Services")]
         public IActionResult GetAllServices()

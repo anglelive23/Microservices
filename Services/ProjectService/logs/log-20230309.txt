@@ -40,3 +40,15 @@ FROM [Projects] AS [p]
 2023-03-09 19:00:18.223 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-03-09 19:00:18.228 +02:00 [INF] Hosting environment: Development
 2023-03-09 19:00:18.229 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ProjectService
+2023-03-09 20:18:23.304 +02:00 [INF] Now listening on: http://localhost:5262
+2023-03-09 20:18:23.350 +02:00 [INF] Now listening on: https://localhost:7247
+2023-03-09 20:18:23.352 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 20:18:23.353 +02:00 [INF] Hosting environment: Development
+2023-03-09 20:18:23.355 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Services\ProjectService
+2023-03-09 20:18:29.632 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7247/GrpcProjectService/GetAllProjects application/grpc -
+2023-03-09 20:18:29.724 +02:00 [INF] Executing endpoint 'gRPC - /GrpcProjectService/GetAllProjects'
+2023-03-09 20:18:32.761 +02:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[ProjectUrl]
+FROM [Projects] AS [p]
+2023-03-09 20:18:32.930 +02:00 [INF] Executed endpoint 'gRPC - /GrpcProjectService/GetAllProjects'
+2023-03-09 20:18:32.945 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7247/GrpcProjectService/GetAllProjects application/grpc - - 200 - application/grpc 3315.4720ms

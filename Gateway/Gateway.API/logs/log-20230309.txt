@@ -1214,3 +1214,238 @@ ORDER BY [MigrationId];
 2023-03-09 19:00:47.593 +02:00 [INF] CORS policy execution successful.
 2023-03-09 19:00:47.600 +02:00 [INF] Serving response from cache.
 2023-03-09 19:00:47.601 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Clients/Clients - - - 200 101 application/json;+charset=utf-8 12.0298ms
+2023-03-09 20:18:23.087 +02:00 [INF] Starting web server.
+2023-03-09 20:18:23.958 +02:00 [INF] Now listening on: http://localhost:5617
+2023-03-09 20:18:23.961 +02:00 [INF] Now listening on: https://localhost:7319
+2023-03-09 20:18:23.963 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 20:18:23.964 +02:00 [INF] Hosting environment: Development
+2023-03-09 20:18:23.965 +02:00 [INF] Content root path: C:\Users\Ahmed-PC\Desktop\API\Microservices\Gateway\Gateway.API
+2023-03-09 20:18:25.960 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/index.html - -
+2023-03-09 20:18:26.387 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/index.html - - - 200 - text/html;charset=utf-8 430.4604ms
+2023-03-09 20:18:26.624 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_vs/browserLink - -
+2023-03-09 20:18:26.625 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - -
+2023-03-09 20:18:26.636 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_framework/aspnetcore-browser-refresh.js - - - 200 11991 application/javascript;+charset=utf-8 10.7180ms
+2023-03-09 20:18:26.708 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.2766ms
+2023-03-09 20:18:26.785 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - -
+2023-03-09 20:18:26.901 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.0446ms
+2023-03-09 20:18:29.178 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:29.189 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 11.2287ms
+2023-03-09 20:18:29.272 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:29.278 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:29.291 +02:00 [INF] No cached response available for this request.
+2023-03-09 20:18:29.294 +02:00 [INF] Executing endpoint 'Gateway.API.Controllers.ProjectsController.GetAllProjects (Gateway.API)'
+2023-03-09 20:18:29.315 +02:00 [INF] Route matched with {action = "GetAllProjects", controller = "Projects"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProjects() on controller Gateway.API.Controllers.ProjectsController (Gateway.API).
+2023-03-09 20:18:29.410 +02:00 [INF] Starting controller Company action GetAllProjects.
+2023-03-09 20:18:33.081 +02:00 [INF] Returning all Projects to the caller.
+2023-03-09 20:18:33.089 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Gateway.API.Entities.Dtos.DTO.Response.ProjectResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 20:18:33.104 +02:00 [INF] Executed action Gateway.API.Controllers.ProjectsController.GetAllProjects (Gateway.API) in 3782.1285ms
+2023-03-09 20:18:33.108 +02:00 [INF] Executed endpoint 'Gateway.API.Controllers.ProjectsController.GetAllProjects (Gateway.API)'
+2023-03-09 20:18:33.112 +02:00 [INF] The response has been cached.
+2023-03-09 20:18:33.116 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 - application/json;+charset=utf-8 3844.0934ms
+2023-03-09 20:18:33.836 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:33.838 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.9923ms
+2023-03-09 20:18:33.848 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:33.850 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:33.858 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:33.859 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 11.5162ms
+2023-03-09 20:18:34.382 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:34.386 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 4.0684ms
+2023-03-09 20:18:34.390 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:34.393 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:34.394 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:34.395 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 4.6739ms
+2023-03-09 20:18:34.757 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:34.758 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.2487ms
+2023-03-09 20:18:34.762 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:34.763 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:34.765 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:34.766 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 4.2717ms
+2023-03-09 20:18:35.077 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:35.078 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.1991ms
+2023-03-09 20:18:35.082 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:35.084 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:35.086 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:35.088 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 5.5696ms
+2023-03-09 20:18:35.301 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:35.303 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.7625ms
+2023-03-09 20:18:35.307 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:35.308 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:35.309 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:35.310 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 2.9169ms
+2023-03-09 20:18:35.468 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:35.470 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 2.5663ms
+2023-03-09 20:18:35.474 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:35.475 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:35.476 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:35.476 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 2.3496ms
+2023-03-09 20:18:35.644 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:35.645 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.5216ms
+2023-03-09 20:18:35.651 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:35.653 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:35.653 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:35.654 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 3.0100ms
+2023-03-09 20:18:35.803 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:35.804 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.3880ms
+2023-03-09 20:18:35.808 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:35.809 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:35.810 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:35.811 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 2.6817ms
+2023-03-09 20:18:35.969 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:35.971 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.4583ms
+2023-03-09 20:18:35.975 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:35.976 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:35.977 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:35.978 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 2.4827ms
+2023-03-09 20:18:36.125 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:36.126 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 0.7527ms
+2023-03-09 20:18:36.131 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:36.132 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:36.135 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:36.137 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 6.1445ms
+2023-03-09 20:18:38.127 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Offers/Services - -
+2023-03-09 20:18:38.129 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Offers/Services - - - 307 0 - 1.7255ms
+2023-03-09 20:18:38.136 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Offers/Services - -
+2023-03-09 20:18:38.138 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:38.139 +02:00 [INF] No cached response available for this request.
+2023-03-09 20:18:38.140 +02:00 [INF] Executing endpoint 'Gateway.API.Controllers.OffersController.GetAllServices (Gateway.API)'
+2023-03-09 20:18:38.143 +02:00 [INF] Route matched with {action = "GetAllServices", controller = "Offers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllServices() on controller Gateway.API.Controllers.OffersController (Gateway.API).
+2023-03-09 20:18:39.692 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Gateway.API.Entities.Dtos.DTO.Response.ServicesResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 20:18:39.695 +02:00 [INF] Executed action Gateway.API.Controllers.OffersController.GetAllServices (Gateway.API) in 1550.853ms
+2023-03-09 20:18:39.696 +02:00 [INF] Executed endpoint 'Gateway.API.Controllers.OffersController.GetAllServices (Gateway.API)'
+2023-03-09 20:18:39.698 +02:00 [INF] The response has been cached.
+2023-03-09 20:18:39.699 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Offers/Services - - - 200 - application/json;+charset=utf-8 1563.1450ms
+2023-03-09 20:18:40.477 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Offers/Services - -
+2023-03-09 20:18:40.479 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Offers/Services - - - 307 0 - 1.4886ms
+2023-03-09 20:18:40.485 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Offers/Services - -
+2023-03-09 20:18:40.487 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:40.488 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:40.489 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Offers/Services - - - 200 410 application/json;+charset=utf-8 3.3472ms
+2023-03-09 20:18:40.808 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Offers/Services - -
+2023-03-09 20:18:40.809 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Offers/Services - - - 307 0 - 0.8936ms
+2023-03-09 20:18:40.813 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Offers/Services - -
+2023-03-09 20:18:40.815 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:40.818 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:40.819 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Offers/Services - - - 200 410 application/json;+charset=utf-8 5.3958ms
+2023-03-09 20:18:40.952 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Offers/Services - -
+2023-03-09 20:18:40.954 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Offers/Services - - - 307 0 - 1.4103ms
+2023-03-09 20:18:40.957 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Offers/Services - -
+2023-03-09 20:18:40.958 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:40.959 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:40.960 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Offers/Services - - - 200 410 application/json;+charset=utf-8 3.2196ms
+2023-03-09 20:18:42.293 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:42.295 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.7355ms
+2023-03-09 20:18:42.303 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:42.304 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:42.306 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:42.307 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 4.2228ms
+2023-03-09 20:18:42.617 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:42.619 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.7489ms
+2023-03-09 20:18:42.623 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:42.624 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:42.625 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:42.626 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 2.6113ms
+2023-03-09 20:18:45.696 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 20:18:45.698 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 1.0858ms
+2023-03-09 20:18:45.704 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 20:18:45.705 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:45.705 +02:00 [INF] No cached response available for this request.
+2023-03-09 20:18:45.706 +02:00 [INF] Executing endpoint 'Gateway.API.Controllers.EmployeesController.GetAllEmployees (Gateway.API)'
+2023-03-09 20:18:45.710 +02:00 [INF] Route matched with {action = "GetAllEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees() on controller Gateway.API.Controllers.EmployeesController (Gateway.API).
+2023-03-09 20:18:45.713 +02:00 [INF] Starting controller Company action GetAllEmployees.
+2023-03-09 20:18:47.202 +02:00 [INF] Returning all Employees to the caller.
+2023-03-09 20:18:47.204 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Gateway.API.Entities.Dtos.DTO.Response.EmployeeResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 20:18:47.208 +02:00 [INF] Executed action Gateway.API.Controllers.EmployeesController.GetAllEmployees (Gateway.API) in 1496.6711ms
+2023-03-09 20:18:47.210 +02:00 [INF] Executed endpoint 'Gateway.API.Controllers.EmployeesController.GetAllEmployees (Gateway.API)'
+2023-03-09 20:18:47.211 +02:00 [INF] The response has been cached.
+2023-03-09 20:18:47.212 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 - application/json;+charset=utf-8 1508.5996ms
+2023-03-09 20:18:47.984 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 20:18:47.986 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 1.7951ms
+2023-03-09 20:18:47.993 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 20:18:47.994 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:47.995 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:47.995 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 59 application/json;+charset=utf-8 2.6006ms
+2023-03-09 20:18:48.339 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 20:18:48.341 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 1.2526ms
+2023-03-09 20:18:48.345 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 20:18:48.346 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:48.347 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:48.349 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 59 application/json;+charset=utf-8 3.9312ms
+2023-03-09 20:18:48.511 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 20:18:48.512 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 1.1818ms
+2023-03-09 20:18:48.518 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 20:18:48.519 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:48.520 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:48.521 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 59 application/json;+charset=utf-8 3.1709ms
+2023-03-09 20:18:48.682 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 20:18:48.685 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 3.4438ms
+2023-03-09 20:18:48.691 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 20:18:48.692 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:48.693 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:48.694 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 59 application/json;+charset=utf-8 2.8988ms
+2023-03-09 20:18:50.605 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - -
+2023-03-09 20:18:50.606 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - - - 307 0 - 1.1269ms
+2023-03-09 20:18:50.612 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Clients/Clients - -
+2023-03-09 20:18:50.613 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:50.615 +02:00 [INF] No cached response available for this request.
+2023-03-09 20:18:50.616 +02:00 [INF] Executing endpoint 'Gateway.API.Controllers.ClientsController.GetAllClients (Gateway.API)'
+2023-03-09 20:18:50.620 +02:00 [INF] Route matched with {action = "GetAllClients", controller = "Clients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllClients() on controller Gateway.API.Controllers.ClientsController (Gateway.API).
+2023-03-09 20:18:50.623 +02:00 [INF] Starting controller Company action GetAllClients.
+2023-03-09 20:18:52.245 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Gateway.API.Entities.Dtos.DTO.Response.ClientResponseDto, Gateway.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-09 20:18:52.248 +02:00 [INF] Executed action Gateway.API.Controllers.ClientsController.GetAllClients (Gateway.API) in 1625.4848ms
+2023-03-09 20:18:52.251 +02:00 [INF] Executed endpoint 'Gateway.API.Controllers.ClientsController.GetAllClients (Gateway.API)'
+2023-03-09 20:18:52.251 +02:00 [INF] The response has been cached.
+2023-03-09 20:18:52.253 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Clients/Clients - - - 200 - application/json;+charset=utf-8 1640.7411ms
+2023-03-09 20:18:52.965 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - -
+2023-03-09 20:18:52.967 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - - - 307 0 - 1.9783ms
+2023-03-09 20:18:52.973 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Clients/Clients - -
+2023-03-09 20:18:52.975 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:52.975 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:52.976 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Clients/Clients - - - 200 101 application/json;+charset=utf-8 2.9720ms
+2023-03-09 20:18:53.207 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - -
+2023-03-09 20:18:53.208 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - - - 307 0 - 1.2236ms
+2023-03-09 20:18:53.213 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Clients/Clients - -
+2023-03-09 20:18:53.214 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:53.216 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:53.217 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Clients/Clients - - - 200 101 application/json;+charset=utf-8 3.9410ms
+2023-03-09 20:18:53.370 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - -
+2023-03-09 20:18:53.371 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Clients/Clients - - - 307 0 - 1.9477ms
+2023-03-09 20:18:53.378 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Clients/Clients - -
+2023-03-09 20:18:53.379 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:53.379 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:53.380 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Clients/Clients - - - 200 101 application/json;+charset=utf-8 2.6771ms
+2023-03-09 20:18:54.618 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 20:18:54.620 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 1.8643ms
+2023-03-09 20:18:54.627 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 20:18:54.628 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:54.629 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:54.630 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 59 application/json;+charset=utf-8 2.9058ms
+2023-03-09 20:18:54.847 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - -
+2023-03-09 20:18:54.849 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Employees/Employees - - - 307 0 - 1.7778ms
+2023-03-09 20:18:54.855 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Employees/Employees - -
+2023-03-09 20:18:54.856 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:54.857 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:54.857 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Employees/Employees - - - 200 59 application/json;+charset=utf-8 2.8421ms
+2023-03-09 20:18:56.470 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Offers/Services - -
+2023-03-09 20:18:56.472 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Offers/Services - - - 307 0 - 1.7831ms
+2023-03-09 20:18:56.479 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Offers/Services - -
+2023-03-09 20:18:56.480 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:56.484 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:56.488 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Offers/Services - - - 200 410 application/json;+charset=utf-8 9.8985ms
+2023-03-09 20:18:56.610 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Offers/Services - -
+2023-03-09 20:18:56.611 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Offers/Services - - - 307 0 - 1.0839ms
+2023-03-09 20:18:56.616 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Offers/Services - -
+2023-03-09 20:18:56.618 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:56.620 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:56.621 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Offers/Services - - - 200 410 application/json;+charset=utf-8 4.7811ms
+2023-03-09 20:18:58.474 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:58.475 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 1.0521ms
+2023-03-09 20:18:58.480 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:58.481 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:58.483 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:58.486 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 5.3934ms
+2023-03-09 20:18:58.646 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - -
+2023-03-09 20:18:58.647 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5617/api/Projects/Projects - - - 307 0 - 0.8392ms
+2023-03-09 20:18:58.652 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7319/api/Projects/Projects - -
+2023-03-09 20:18:58.654 +02:00 [INF] CORS policy execution successful.
+2023-03-09 20:18:58.655 +02:00 [INF] Serving response from cache.
+2023-03-09 20:18:58.656 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7319/api/Projects/Projects - - - 200 212 application/json;+charset=utf-8 3.5164ms
