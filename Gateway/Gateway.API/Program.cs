@@ -24,10 +24,16 @@ builder.Services.AddDbContext<GatewayContext>(options =>
 // Cache
 builder.Services.AddOutputCache(options =>
 {
+    // Collections
     options.AddPolicy("Services", policy => policy.Tag("Services").Expire(TimeSpan.FromHours(1)));
     options.AddPolicy("Projects", policy => policy.Tag("Projects").Expire(TimeSpan.FromHours(1)));
     options.AddPolicy("Clients", policy => policy.Tag("Clients").Expire(TimeSpan.FromHours(1)));
     options.AddPolicy("Employees", policy => policy.Tag("Employees").Expire(TimeSpan.FromHours(1)));
+    // Single Item
+    options.AddPolicy("Service", policy => policy.Tag("Service").SetVaryByQuery("Id").Expire(TimeSpan.FromHours(1)));
+    options.AddPolicy("Project", policy => policy.Tag("Project").SetVaryByQuery("Id").Expire(TimeSpan.FromHours(1)));
+    options.AddPolicy("Client", policy => policy.Tag("Client").SetVaryByQuery("Id").Expire(TimeSpan.FromHours(1)));
+    options.AddPolicy("Employee", policy => policy.Tag("Employee").SetVaryByQuery("Id").Expire(TimeSpan.FromHours(1)));
 });
 
 //SeriLog

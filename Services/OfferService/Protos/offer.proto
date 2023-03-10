@@ -8,19 +8,23 @@ option csharp_namespace = "OfferService";
 
 service GrpcOffersService {
   rpc GetAllOffers(google.protobuf.Empty) returns(GrpcOffersResponse);
-}
-
-message GrpcOfferModel {
-    int32 Id = 1;
-    string Name = 2;
-    string Brief = 3;
-    string Description = 4;
-    google.protobuf.StringValue LogoUrl = 5;
-    google.protobuf.StringValue ImageUrl1 = 6;
-    google.protobuf.StringValue ImageUrl2 = 7;
+  rpc GetOfferById(GrpcOfferId) returns(GrpcOfferModel);
 }
 
 message GrpcOffersResponse {
     repeated GrpcOfferModel offer = 1;
 }
 
+message GrpcOfferModel {
+    int32 id = 1;
+    string name = 2;
+    string brief = 3;
+    string description = 4;
+    google.protobuf.StringValue logoUrl = 5;
+    google.protobuf.StringValue imageUrl1 = 6;
+    google.protobuf.StringValue imageUrl2 = 7;
+}
+
+message GrpcOfferId {
+    int32 id = 1;
+}

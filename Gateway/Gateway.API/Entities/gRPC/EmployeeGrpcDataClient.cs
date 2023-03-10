@@ -1,8 +1,11 @@
-﻿namespace Gateway.API.Entities.gRPC
+﻿using EmployeeService;
+
+namespace Gateway.API.Entities.gRPC
 {
     public interface IEmployeeGrpcDataClient
     {
         IList<EmployeeResponseDto> GetAllEmployees();
+        EmployeeResponseDto? GetEmployeeById(int id);
     }
 
     public class EmployeeGrpcDataClient : IEmployeeGrpcDataClient
@@ -29,18 +32,33 @@
         {
             try
             {
+                Log.Information($"--> Calling gRPC Service [{_serviceUrl}] to get All Employees...");
                 var employees = _client.GetAllEmployees(new Empty());
-                var response = new List<EmployeeResponseDto>();
-                foreach (var emp in employees.Employee)
-                {
-                    response.Add(emp.Adapt<EmployeeResponseDto>());
-                }
-                return response;
+                Log.Information($"--> {employees.Employee.Count} employees has been retrieved...");
+                return employees.Employee.Adapt<IList<EmployeeResponseDto>>();
             }
             catch (Exception ex)
             {
-                Log.Error($"Something went wrong.. {ex.Message}");
+                Log.Information($"--> Could not call gRPC server {ex.Message}");
                 return Enumerable.Empty<EmployeeResponseDto>().ToList();
+            }
+        }
+
+        public EmployeeResponseDto? GetEmployeeById(int id)
+        {
+            try
+            {
+                Log.Information($"--> Calling gRPC Service [{_serviceUrl}] to get Employee by Id: {id}...");
+                var byId = new GrpcEmployeeId { Id = id };
+                var employee = _client.GetEmployeeById(byId);
+                Log.Information($"--> employee with Id: {id} has been retrieved...");
+                return employee.Adapt<EmployeeResponseDto>();
+
+            }
+            catch (Exception ex)
+            {
+                Log.Information($"--> Could not call gRPC server {ex.Message}");
+                return null;
             }
         }
         #endregion

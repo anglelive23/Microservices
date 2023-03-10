@@ -15,26 +15,52 @@
         }
         #endregion
 
-        [HttpGet("GetAll")]
+        #region GET
+        [HttpGet]
         [ProducesResponseType(200, Type = typeof(List<EmployeeResponseDto>))]
         [OutputCache(PolicyName = "Employees")]
         public async Task<IActionResult> GetAllEmployees()
         {
             try
             {
-                Log.Information("Starting controller Company action GetAllEmployees.");
+                Log.Information("--> Trying to get all employees using gRPC...");
                 var employees = _grpc.GetAllEmployees();
 
                 if (!employees.Any())
                     return NotFound("Employees is null or empty.");
 
-                Log.Information("Returning all Employees to the caller.");
+                Log.Information($"--> {employees.Count} employees has been retrieved...");
                 return await Task.FromResult(Ok(employees));
             }
             catch (Exception ex)
             {
-                return StatusCode(500, ex.Message);
+                Log.Information($"--> Couldn't retrieve employees using gRPC: {ex.Message}");
+                return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("{id}")]
+        [ProducesResponseType(200, Type = typeof(EmployeeResponseDto))]
+        [OutputCache(PolicyName = "Employee")]
+        public async Task<IActionResult> GetEmployeeById(int id)
+        {
+            try
+            {
+                Log.Information($"--> Trying to get all employee with id: {id} using gRPC...");
+                var employee = _grpc.GetEmployeeById(id);
+
+                if (employee is null)
+                    return NotFound();
+
+                Log.Information($"--> employee with id: {id} has been retrieved...");
+                return await Task.FromResult(Ok(employee));
+            }
+            catch (Exception ex)
+            {
+                Log.Information($"--> Couldn't retrieve employee with id: {id} using gRPC: {ex.Message}");
+                return BadRequest(ex.Message);
+            }
+        }
+        #endregion
     }
 }

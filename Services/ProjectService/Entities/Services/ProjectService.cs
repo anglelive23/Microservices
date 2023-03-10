@@ -18,11 +18,14 @@
         {
             var projects = await _unitOfWork.Projects.GetAllAsync();
             var response = new GrpcProjectResponse();
-            foreach (var project in projects)
-            {
-                response.Project.Add(project.Adapt<GrpcProjectModel>());
-            }
+            response.Project.AddRange(projects.Adapt<IList<GrpcProjectModel>>());
             return response;
+        }
+
+        public override async Task<GrpcProjectModel> GetProjectById(GrpcProjectId request, ServerCallContext context)
+        {
+            var project = await _unitOfWork.Projects.FindAsync(p => p.Id == request.Id);
+            return project.Adapt<GrpcProjectModel>();
         }
         #endregion
     }

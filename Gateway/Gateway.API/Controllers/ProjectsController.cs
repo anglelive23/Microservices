@@ -15,26 +15,52 @@
         }
         #endregion
 
-        [HttpGet("GetAll")]
+        #region GET
+        [HttpGet]
         [ProducesResponseType(200, Type = typeof(List<ProjectResponseDto>))]
         [OutputCache(PolicyName = "Projects")]
         public async Task<IActionResult> GetAllProjects()
         {
             try
             {
-                Log.Information("Starting controller Company action GetAllProjects.");
+                Log.Information("--> Trying to get all projects using gRPC...");
                 var projects = _grpc.GetAllProjects();
 
                 if (!projects.Any())
                     return NotFound("Projects is null or empty.");
 
-                Log.Information("Returning all Projects to the caller.");
+                Log.Information($"--> {projects.Count} projects has been retrieved...");
                 return await Task.FromResult(Ok(projects));
             }
             catch (Exception ex)
             {
-                return StatusCode(500, ex.Message);
+                Log.Information($"--> Couldn't retrieve projects using gRPC: {ex.Message}");
+                return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("{id}")]
+        [ProducesResponseType(200, Type = typeof(ProjectResponseDto))]
+        [OutputCache(PolicyName = "Project")]
+        public async Task<IActionResult> GetProjectById(int id)
+        {
+            try
+            {
+                Log.Information($"--> Trying to get project with id: {id} using gRPC...");
+                var project = _grpc.GetProjectById(id);
+
+                if (project is null)
+                    return NotFound();
+
+                Log.Information($"--> project with id: {id} has been retrieved...");
+                return await Task.FromResult(Ok(project));
+            }
+            catch (Exception ex)
+            {
+                Log.Information($"--> Couldn't retrieve project with id: {id} using gRPC: {ex.Message}");
+                return BadRequest(ex.Message);
+            }
+        }
+        #endregion
     }
 }

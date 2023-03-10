@@ -6,6 +6,7 @@ import "google/protobuf/empty.proto";
 
 service GrpcProjectService {
 	rpc GetAllProjects(google.protobuf.Empty) returns(GrpcProjectResponse);
+	rpc GetProjectById(GrpcProjectId) returns(GrpcProjectModel);
 }
 
 message GrpcProjectResponse {
@@ -13,7 +14,11 @@ message GrpcProjectResponse {
 }
 
 message GrpcProjectModel {
-	int32 Id = 1;
-	string Name = 2;
-	string ProjectUrl = 3;
+	int32 id = 1;
+	string name = 2;
+	string projectUrl = 3;
+}
+
+message GrpcProjectId {
+	int32 id = 1;
 }

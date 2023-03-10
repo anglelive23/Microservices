@@ -1,8 +1,11 @@
-﻿namespace Gateway.API.Entities.gRPC
+﻿using ProjectService;
+
+namespace Gateway.API.Entities.gRPC
 {
     public interface IProjectsGrpcDataClient
     {
         IList<ProjectResponseDto> GetAllProjects();
+        ProjectResponseDto? GetProjectById(int id);
     }
     public class ProjectsGrpcDataClient : IProjectsGrpcDataClient
     {
@@ -28,18 +31,32 @@
         {
             try
             {
+                Log.Information($"--> Calling gRPC Service [{_serviceUrl}] to get All Projects...");
                 var projects = _client.GetAllProjects(new Empty());
-                var response = new List<ProjectResponseDto>();
-                foreach (var item in projects.Project)
-                {
-                    response.Add(item.Adapt<ProjectResponseDto>());
-                }
-                return response;
+                Log.Information($"--> {projects.Project.Count} projects has been retrieved...");
+                return projects.Project.Adapt<IList<ProjectResponseDto>>();
             }
             catch (Exception ex)
             {
-                Log.Error($"Something went wrong.. {ex.Message}");
+                Log.Information($"--> Could not call gRPC server {ex.Message}");
                 return Enumerable.Empty<ProjectResponseDto>().ToList();
+            }
+        }
+
+        public ProjectResponseDto? GetProjectById(int id)
+        {
+            try
+            {
+                Log.Information($"--> Calling gRPC Service [{_serviceUrl}] to get Project with id: {id}...");
+                var byId = new GrpcProjectId { Id = id };
+                var project = _client.GetProjectById(byId);
+                Log.Information($"--> project with id: {id} has been retrieved...");
+                return project.Adapt<ProjectResponseDto>();
+            }
+            catch (Exception ex)
+            {
+                Log.Information($"--> Could not call gRPC server {ex.Message}");
+                return null;
             }
         }
         #endregion

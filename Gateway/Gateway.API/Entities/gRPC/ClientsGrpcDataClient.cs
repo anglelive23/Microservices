@@ -1,8 +1,11 @@
-﻿namespace Gateway.API.Entities.gRPC
+﻿using ClientService;
+
+namespace Gateway.API.Entities.gRPC
 {
     public interface IClientsGrpcDataClient
     {
         IList<ClientResponseDto> GetAllClients();
+        ClientResponseDto? GetClientById(int id);
     }
 
     class ClientsGrpcDataClient : IClientsGrpcDataClient
@@ -29,18 +32,32 @@
         {
             try
             {
+                Log.Information($"--> Calling gRPC Service [{_serviceUrl}] to get All Clients...");
                 var clients = _client.GetAllClients(new Empty());
-                var response = new List<ClientResponseDto>();
-                foreach (var client in clients.Client)
-                {
-                    response.Add(client.Adapt<ClientResponseDto>());
-                }
-                return response;
+                Log.Information($"--> {clients.Client.Count} clients has been retrieved...");
+                return clients.Client.Adapt<IList<ClientResponseDto>>();
             }
             catch (Exception ex)
             {
-                Log.Error($"Something went wrong.. {ex.Message}");
+                Log.Information($"--> Could not call gRPC server {ex.Message}");
                 return Enumerable.Empty<ClientResponseDto>().ToList();
+            }
+        }
+
+        public ClientResponseDto? GetClientById(int id)
+        {
+            try
+            {
+                Log.Information($"--> Calling gRPC Service [{_serviceUrl}] to get client by Id: {id}...");
+                GrpcClientId byId = new GrpcClientId { Id = id };
+                var client = _client.GetClientById(byId);
+                Log.Information($"--> client with Id: {client.Id} has been retrieved...");
+                return client.Adapt<ClientResponseDto>();
+            }
+            catch (Exception ex)
+            {
+                Log.Information($"--> Could not call gRPC server {ex.Message}");
+                return null;
             }
         }
         #endregion

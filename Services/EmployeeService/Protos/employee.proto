@@ -6,6 +6,7 @@ import "google/protobuf/empty.proto";
 
 service GrpcEmployeeService {
 	rpc GetAllEmployees(google.protobuf.Empty) returns(GrpcEmployeeResponse);
+	rpc GetEmployeeById(GrpcEmployeeId) returns(GrpcEmployeeModel);
 }
 
 message GrpcEmployeeResponse {
@@ -13,8 +14,12 @@ message GrpcEmployeeResponse {
 }
 
 message GrpcEmployeeModel {
-	int32 Id = 1;
-	string Name = 2;
-	string Role = 3;
-	string ImageUrl = 4;
+	int32 id = 1;
+	string name = 2;
+	string role = 3;
+	string imageUrl = 4;
+}
+
+message GrpcEmployeeId {
+	int32 id = 1;
 }

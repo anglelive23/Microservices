@@ -6,6 +6,7 @@ import "google/protobuf/empty.proto";
 
 service GrpcClientServices {
     rpc GetAllClients(google.protobuf.Empty) returns(GrpcClientResponse);
+    rpc GetClientById(GrpcClientId) returns(GrpcClientModel);
 }
 
 message GrpcClientResponse {
@@ -13,7 +14,11 @@ message GrpcClientResponse {
 }
 
 message GrpcClientModel {
-    int32 Id = 1;
-    string Name = 2;
-    string ImageUrl = 3;
+    int32 id = 1;
+    string name = 2;
+    string imageUrl = 3;
+}
+
+message GrpcClientId {
+    int32 id = 1;
 }

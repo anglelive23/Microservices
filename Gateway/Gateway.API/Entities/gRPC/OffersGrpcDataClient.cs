@@ -1,8 +1,11 @@
-﻿namespace Gateway.API.Entities.gRPC
+﻿using OfferService;
+
+namespace Gateway.API.Entities.gRPC
 {
     public interface IOffersGrpcDataClient
     {
         IList<ServicesResponseDto> GetAllServices();
+        ServicesResponseDto? GetServiceById(int id);
     }
 
     public class OffersGrpcDataClient : IOffersGrpcDataClient
@@ -29,18 +32,32 @@
         {
             try
             {
+                Log.Information($"--> Calling gRPC Service [{_serviceUrl}] to get All Services...");
                 var services = _client.GetAllOffers(new Empty());
-                var response = new List<ServicesResponseDto>();
-                foreach (var service in services.Offer)
-                {
-                    response.Add(service.Adapt<ServicesResponseDto>());
-                }
-                return response;
+                Log.Information($"--> {services.Offer.Count} services has been retrieved...");
+                return services.Offer.Adapt<IList<ServicesResponseDto>>();
             }
             catch (Exception ex)
             {
-                Log.Error($"Something went wrong.. {ex.Message}");
+                Log.Information($"--> Could not call gRPC server {ex.Message}");
                 return Enumerable.Empty<ServicesResponseDto>().ToList();
+            }
+        }
+
+        public ServicesResponseDto? GetServiceById(int id)
+        {
+            try
+            {
+                Log.Information($"--> Calling gRPC Service [{_serviceUrl}] to get All service by id: {id}...");
+                var byId = new GrpcOfferId { Id = id };
+                var service = _client.GetOfferById(byId);
+                Log.Information($"--> service with id: {id} has been retrieved...");
+                return service.Adapt<ServicesResponseDto>();
+            }
+            catch (Exception ex)
+            {
+                Log.Information($"--> Could not call gRPC server {ex.Message}");
+                return null;
             }
         }
         #endregion

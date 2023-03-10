@@ -18,11 +18,14 @@
         {
             var employees = await _unitOfWork.Employees.GetAllAsync();
             var response = new GrpcEmployeeResponse();
-            foreach (var emp in employees)
-            {
-                response.Employee.Add(emp.Adapt<GrpcEmployeeModel>());
-            }
+            response.Employee.AddRange(employees.Adapt<IList<GrpcEmployeeModel>>());
             return response;
+        }
+
+        public override async Task<GrpcEmployeeModel> GetEmployeeById(GrpcEmployeeId request, ServerCallContext context)
+        {
+            var employee = await _unitOfWork.Employees.FindAsync(e => e.Id == request.Id);
+            return employee.Adapt<GrpcEmployeeModel>();
         }
         #endregion
     }
