@@ -19,4 +19,6 @@ Some of used packages:
 
 7- UnitOfWork with Generic repository design pattern
 
+8- OData
+
 .NET version -> 7.0
