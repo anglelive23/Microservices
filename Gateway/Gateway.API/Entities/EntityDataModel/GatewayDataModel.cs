@@ -5,10 +5,10 @@
         public IEdmModel GetGatewayDataModel()
         {
             var builder = new ODataConventionModelBuilder();
-            builder.EntitySet<Client>("Clients");
-            builder.EntitySet<Service>("Offers");
-            builder.EntitySet<Employee>("Employees");
-            builder.EntitySet<Project>("Projects");
+            builder.EntitySet<ClientResponseDto>("Clients");
+            builder.EntitySet<ServicesResponseDto>("Offers");
+            builder.EntitySet<EmployeeResponseDto>("Employees");
+            builder.EntitySet<ProjectResponseDto>("Projects");
 
             return builder.GetEdmModel();
         }

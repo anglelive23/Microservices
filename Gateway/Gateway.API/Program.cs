@@ -5,7 +5,7 @@ builder.Services
     .AddControllers()
     .AddOData(opt =>
     {
-        opt.AddRouteComponents("odata", new GatewayDataModel().GetGatewayDataModel());
+        opt.AddRouteComponents("gateway/odata", new GatewayDataModel().GetGatewayDataModel());
         opt.Select().Filter().Expand().OrderBy().Count().SetMaxTop(100);
     });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
