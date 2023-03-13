@@ -1,6 +1,7 @@
 ﻿namespace Gateway.API.Controllers
 {
-    [Route("gateway/[controller]")]
+    //[Route("gateway/[controller]")]
+    [Route("gateway/odata")]
     [ApiController]
     public class EmployeesController : ControllerBase
     {
@@ -16,9 +17,10 @@
         #endregion
 
         #region GET
-        [HttpGet]
+        [HttpGet("employees")]
         [ProducesResponseType(200, Type = typeof(List<EmployeeResponseDto>))]
         [OutputCache(PolicyName = "Employees")]
+        [EnableQuery]
         public async Task<IActionResult> GetAllEmployees()
         {
             try
@@ -39,9 +41,10 @@
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("employees({id})")]
         [ProducesResponseType(200, Type = typeof(EmployeeResponseDto))]
         [OutputCache(PolicyName = "Employee")]
+        [EnableQuery]
         public async Task<IActionResult> GetEmployeeById(int id)
         {
             try

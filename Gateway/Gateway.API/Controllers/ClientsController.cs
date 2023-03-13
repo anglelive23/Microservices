@@ -1,6 +1,7 @@
 ﻿namespace Gateway.API.Controllers
 {
-    [Route("gateway/[controller]")]
+    //[Route("gateway/[controller]")]
+    [Route("gateway/odata")]
     [ApiController]
     public class ClientsController : ControllerBase
     {
@@ -15,9 +16,10 @@
         }
         #endregion
 
-        [HttpGet]
+        [HttpGet("clients")]
         [ProducesResponseType(200, Type = typeof(List<ClientResponseDto>))]
         [OutputCache(PolicyName = "Clients")]
+        [EnableQuery]
         public async Task<IActionResult> GetAllClients()
         {
             try
@@ -40,9 +42,10 @@
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("clients({id})")]
         [ProducesResponseType(200, Type = typeof(ClientResponseDto))]
         [OutputCache(PolicyName = "Client")]
+        [EnableQuery]
         public async Task<IActionResult> GetClientById(int id)
         {
             try

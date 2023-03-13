@@ -1,6 +1,7 @@
 ﻿namespace Gateway.API.Controllers
 {
-    [Route("gateway/[controller]")]
+    //[Route("gateway/[controller]")]
+    [Route("gateway/odata")]
     [ApiController]
     public class OffersController : ControllerBase
     {
@@ -16,9 +17,10 @@
         #endregion
 
         #region GET
-        [HttpGet]
+        [HttpGet("offers")]
         [ProducesResponseType(200, Type = typeof(List<ServicesResponseDto>))]
         [OutputCache(PolicyName = "Services")]
+        [EnableQuery]
         public IActionResult GetAllServices()
         {
             try
@@ -39,9 +41,10 @@
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("offers({id})")]
         [ProducesResponseType(200, Type = typeof(ServicesResponseDto))]
         [OutputCache(PolicyName = "Service")]
+        [EnableQuery]
         public IActionResult GetServiceById(int id)
         {
             try

@@ -1,6 +1,7 @@
 ﻿namespace Gateway.API.Controllers
 {
-    [Route("gateway/[controller]")]
+    //[Route("gateway/[controller]")]
+    [Route("gateway/odata")]
     [ApiController]
     public class ProjectsController : ControllerBase
     {
@@ -16,9 +17,10 @@
         #endregion
 
         #region GET
-        [HttpGet]
+        [HttpGet("projects")]
         [ProducesResponseType(200, Type = typeof(List<ProjectResponseDto>))]
         [OutputCache(PolicyName = "Projects")]
+        [EnableQuery]
         public async Task<IActionResult> GetAllProjects()
         {
             try
@@ -39,9 +41,10 @@
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("projects({id})")]
         [ProducesResponseType(200, Type = typeof(ProjectResponseDto))]
         [OutputCache(PolicyName = "Project")]
+        [EnableQuery]
         public async Task<IActionResult> GetProjectById(int id)
         {
             try

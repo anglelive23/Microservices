@@ -10,6 +10,11 @@ global using Gateway.API.Entities.Models;
 global using Gateway.API.Entities.Dtos.DTO.Response;
 global using Microsoft.AspNetCore.OutputCaching;
 
+// OData
+global using Microsoft.OData.Edm;
+global using Microsoft.OData.ModelBuilder;
+global using Microsoft.AspNetCore.OData.Query;
+
 // GrpcServices
 global using Gateway.API.Entities.gRPC;
 global using static OfferService.GrpcOffersService;
