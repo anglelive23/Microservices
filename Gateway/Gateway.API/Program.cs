@@ -1,7 +1,3 @@
-using Gateway.API.Entities.EntityDataModel;
-using Gateway.API.Entities.gRPC;
-using Microsoft.AspNetCore.OData;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,7 +6,7 @@ builder.Services
     .AddOData(opt =>
     {
         opt.AddRouteComponents("odata", new GatewayDataModel().GetGatewayDataModel());
-        opt.Select().Filter().Count().Expand().OrderBy();
+        opt.Select().Filter().Expand().OrderBy().Count().SetMaxTop(100);
     });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

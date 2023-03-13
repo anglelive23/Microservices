@@ -3,7 +3,7 @@
     //[Route("gateway/[controller]")]
     [Route("gateway/odata")]
     [ApiController]
-    public class OffersController : ControllerBase
+    public class OffersController : ODataController
     {
         #region Services
         private readonly IOffersGrpcDataClient _grpc;

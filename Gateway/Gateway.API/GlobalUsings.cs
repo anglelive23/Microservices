@@ -12,8 +12,11 @@ global using Microsoft.AspNetCore.OutputCaching;
 
 // OData
 global using Microsoft.OData.Edm;
+global using Microsoft.AspNetCore.OData;
 global using Microsoft.OData.ModelBuilder;
 global using Microsoft.AspNetCore.OData.Query;
+global using Gateway.API.Entities.EntityDataModel;
+global using Microsoft.AspNetCore.OData.Routing.Controllers;
 
 // GrpcServices
 global using Gateway.API.Entities.gRPC;
